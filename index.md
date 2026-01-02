@@ -31,12 +31,14 @@ I bring deep expertise in applying AI/ML to Earth observation, remote sensing, b
 
 ## Key Expertise
 - Artificial Intelligence & Machine Learning
-- Data Science & Predictive Analytics
-- NLP & Text Analytics
 - Remote Sensing & Earth Observation
-- Cloud-Native ML Systems (AWS)
+- Satellite Image Processing and Analysis
 - Scientific Research & Federal Programs
-
+- Water Quality
+- Data Science
+- Infrasturcture architech for Scienitifc research projects
+- NLP & Text Analytics
+- Cloud-Native ML Systems (AWS)
 ---
 
 ## Certificates
