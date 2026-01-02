@@ -1,57 +1,87 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="utf-8">
   <title>Sandeep Chittimalli — Highlights</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
-    body { font-family: Arial, sans-serif; max-width: 1150px; margin: 36px auto; padding: 0 16px; line-height: 1.6; }
-    h1 { margin: 0 0 6px; }
-    .sub { margin: 0 0 18px; color: #555; }
+    body {
+      font-family: Arial, sans-serif;
+      max-width: 1150px;
+      margin: 36px auto;
+      padding: 0 16px;
+      line-height: 1.6;
+    }
 
-    .topbar { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 26px; }
+    h1 { margin-bottom: 6px; }
+    .sub { color: #555; margin-bottom: 18px; }
+
+    .topbar {
+      display: flex;
+      gap: 10px;
+      flex-wrap: wrap;
+      margin-bottom: 28px;
+    }
+
     .chip {
-      display: inline-block; padding: 7px 12px;
-      border: 1px solid #ddd; border-radius: 999px;
-      text-decoration: none; color: #111; background: #fff;
+      padding: 7px 12px;
+      border: 1px solid #ddd;
+      border-radius: 999px;
+      text-decoration: none;
+      color: #111;
+      background: #fff;
+      font-size: 14px;
     }
     .chip:hover { text-decoration: underline; }
 
-    .section { margin: 34px 0; }
-    .section-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
-    .section-header h2 { margin: 0; }
-    .hint { color: #666; font-size: 13px; margin: 0; }
+    .section { margin: 40px 0; }
 
-    .carousel-container { position: relative; overflow: hidden; margin-top: 12px; border-radius: 12px; }
+    .section-header {
+      display: flex;
+      justify-content: space-between;
+      align-items: baseline;
+      gap: 12px;
+    }
+
+    .section-header h2 { margin: 0; }
+    .hint { font-size: 13px; color: #666; }
+
+    .carousel-container {
+      position: relative;
+      margin-top: 14px;
+      overflow: hidden;
+    }
+
     .carousel {
       display: flex;
+      gap: 16px;
       overflow-x: auto;
       scroll-behavior: smooth;
-      gap: 16px;
       padding: 14px 46px;
       background: #fafafa;
       border: 1px solid #eee;
       border-radius: 12px;
     }
+
     .carousel::-webkit-scrollbar { display: none; }
 
     .item {
-      flex: 0 0 auto;
       width: 340px;
+      flex: 0 0 auto;
+      background: #fff;
       border: 1px solid #e6e6e6;
       border-radius: 12px;
       padding: 10px;
-      background: #fff;
       box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
-    .caption { margin-top: 8px; font-size: 14px; }
-    .caption strong { display: block; margin-bottom: 2px; }
-    .caption a { text-decoration: none; }
-    .caption a:hover { text-decoration: underline; }
-
-    .item img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; }
+    .item img {
+      width: 100%;
+      height: 200px;
+      object-fit: cover;
+      border-radius: 10px;
+    }
 
     .pdf-wrap {
       width: 100%;
@@ -59,19 +89,39 @@
       border-radius: 10px;
       overflow: hidden;
       border: 1px solid #ddd;
-      background: #fafafa;
+      background: #f7f7f7;
     }
-    .pdf-wrap iframe { width: 100%; height: 100%; border: 0; }
+
+    .pdf-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .caption {
+      margin-top: 8px;
+      font-size: 14px;
+    }
+
+    .caption strong {
+      display: block;
+      margin-bottom: 2px;
+    }
+
+    .caption a {
+      text-decoration: none;
+    }
+    .caption a:hover { text-decoration: underline; }
 
     .nav-button {
       position: absolute;
       top: 50%;
       transform: translateY(-50%);
-      background: #fff;
-      border: 1px solid #ccc;
       width: 34px;
       height: 34px;
       border-radius: 50%;
+      background: #fff;
+      border: 1px solid #ccc;
       cursor: pointer;
       font-size: 18px;
       display: grid;
@@ -79,251 +129,226 @@
       user-select: none;
       z-index: 2;
     }
+
     .nav-left { left: 8px; }
     .nav-right { right: 8px; }
 
-    .footer { margin-top: 30px; padding-top: 14px; border-top: 1px solid #eee; color: #666; font-size: 13px; }
+    .footer {
+      margin-top: 40px;
+      padding-top: 14px;
+      border-top: 1px solid #eee;
+      font-size: 13px;
+      color: #666;
+    }
   </style>
 </head>
 
 <body>
-  <h1>Highlights</h1>
-  <p class="sub">Swipe on mobile or use ◀ ▶ buttons. PDFs and images both display here.</p>
 
-  <div class="topbar">
-    <a class="chip" href="#certificates">Certificates</a>
-    <a class="chip" href="#journal-reviewer">Journal Reviewer</a>
-    <a class="chip" href="#conference-reviewer">Conference Reviewer</a>
-    <a class="chip" href="#hackathons">Hackathons / Judging</a>
-    <a class="chip" href="#agu">AGU</a>
-    <a class="chip" href="#presentations">Presentations</a>
+<h1>Highlights</h1>
+<p class="sub">Swipe on mobile or use ◀ ▶ buttons. PDFs and images are displayed inline.</p>
+
+<div class="topbar">
+  <a class="chip" href="#journal-reviewer">Journal Reviewer</a>
+  <a class="chip" href="#conference-reviewer">Conference Reviewer</a>
+  <a class="chip" href="#hackathons">Hackathons / Judging</a>
+  <a class="chip" href="#agu">AGU</a>
+</div>
+
+<!-- ===================== JOURNAL REVIEWER ===================== -->
+<div class="section" id="journal-reviewer">
+  <div class="section-header">
+    <h2>Journal Reviewer</h2>
+    <p class="hint">Springer Nature reviewer certificates</p>
   </div>
 
-  <!-- ===================== CERTIFICATES (you will add after upload) ===================== -->
-  <div class="section" id="certificates">
-    <div class="section-header">
-      <h2>Certificates</h2>
-      <p class="hint">Upload to <code>assets/certificates/</code> (I’ll add items when you share filenames)</p>
-    </div>
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('cert-carousel', -380)">◀</button>
-      <div class="carousel" id="cert-carousel">
-        <div class="item">
-          <div class="caption">
-            <strong>Coming soon</strong>
-            Upload your certificate PDFs/images to <code>assets/certificates/</code>, then send filenames and I’ll plug them in.
-          </div>
+  <div class="carousel-container">
+    <button class="nav-button nav-left" onclick="scrollCarousel('jr', -380)">◀</button>
+    <div class="carousel" id="jr">
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/journal-reviewer/Reviewer_Certificate_Discover_Geoscience.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>Discover GeoScience</strong>
+          Reviewer Certificate •
+          <a href="assets/journal-reviewer/Reviewer_Certificate_Discover_Geoscience.pdf" target="_blank">Open PDF</a>
         </div>
       </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('cert-carousel', 380)">▶</button>
-    </div>
-  </div>
 
-  <!-- ===================== JOURNAL REVIEWER ===================== -->
-  <div class="section" id="journal-reviewer">
-    <div class="section-header">
-      <h2>Journal Reviewer</h2>
-      <p class="hint">Upload to <code>assets/journal-reviewer/</code></p>
-    </div>
-
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('jr-carousel', -380)">◀</button>
-      <div class="carousel" id="jr-carousel">
-
-        <!-- If you renamed these, update the filenames here to match exactly -->
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Geoscience.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>Discover GeoScience</strong>
-            Reviewer Certificate • <a href="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Geoscience.pdf" target="_blank">Open PDF</a>
-          </div>
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/journal-reviewer/Reviewer_Certificate_Discover_Sustainability.pdf"></iframe>
         </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Sustainability.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>Discover Sustainability</strong>
-            Reviewer Certificate • <a href="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Sustainability.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-      </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('jr-carousel', 380)">▶</button>
-    </div>
-  </div>
-
-  <!-- ===================== CONFERENCE REVIEWER ===================== -->
-  <div class="section" id="conference-reviewer">
-    <div class="section-header">
-      <h2>Conference Reviewer</h2>
-      <p class="hint">Upload to <code>assets/conference-reviewer/</code></p>
-    </div>
-
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('cr-carousel', -380)">◀</button>
-      <div class="carousel" id="cr-carousel">
-
-        <!-- If you renamed these, update the filenames here to match exactly -->
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/conference-reviewer/BDAA-2025_CoA_Sandeep%20Kumar%20Chittimalli.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>BDAA 2025</strong>
-            Certificate of Appreciation • <a href="assets/conference-reviewer/BDAA-2025_CoA_Sandeep%20Kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/conference-reviewer/Reviewer%20Certificate_ISAECT%202025_CERTIFICATE%20OF%20APPRECIATION.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>ISAECT 2025</strong>
-            Reviewer Certificate • <a href="assets/conference-reviewer/Reviewer%20Certificate_ISAECT%202025_CERTIFICATE%20OF%20APPRECIATION.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-      </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('cr-carousel', 380)">▶</button>
-    </div>
-  </div>
-
-  <!-- ===================== HACKATHONS / JUDGING (UPDATED FILENAMES) ===================== -->
-  <div class="section" id="hackathons">
-    <div class="section-header">
-      <h2>Hackathons / Judging / Evaluations</h2>
-      <p class="hint">Upload to <code>assets/hackathons/</code></p>
-    </div>
-
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('hack-carousel', -380)">◀</button>
-      <div class="carousel" id="hack-carousel">
-
-        <div class="item">
-          <img src="assets/hackathons/sih-certificate-for-EVALUATOR.png" alt="Smart India Hackathon Evaluator">
-          <div class="caption">
-            <strong>Smart India Hackathon (SIH)</strong>
-            Evaluator Certificate • <a href="assets/hackathons/sih-certificate-for-EVALUATOR.png" target="_blank">Open</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/hackathons/Vibe_Demo_Day_Sep.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>Vibe Demo Day</strong>
-            September • <a href="assets/hackathons/Vibe_Demo_Day_Sep.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/hackathons/Vibe_Demo_Day_Nov.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>Vibe Demo Day</strong>
-            November • <a href="assets/hackathons/Vibe_Demo_Day_Nov.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <!-- NOTE: this file has a space in the name; %20 is required -->
-            <iframe src="assets/hackathons/Harrisburg_University_Virtual_Vibe_Coding%20Hackathon.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>Harrisburg University</strong>
-            Virtual Vibe Coding Hackathon • <a href="assets/hackathons/Harrisburg_University_Virtual_Vibe_Coding%20Hackathon.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/hackathons/F1_Hackathon_Acknowledgement.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>F1 Hackathon</strong>
-            Acknowledgement • <a href="assets/hackathons/F1_Hackathon_Acknowledgement.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-      </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('hack-carousel', 380)">▶</button>
-    </div>
-  </div>
-
-  <!-- ===================== AGU (UPDATED FILENAMES) ===================== -->
-  <div class="section" id="agu">
-    <div class="section-header">
-      <h2>AGU</h2>
-      <p class="hint">Upload to <code>assets/agu/</code></p>
-    </div>
-
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('agu-carousel', -380)">◀</button>
-      <div class="carousel" id="agu-carousel">
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/agu/AGU_2025_attendance_confirmation.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>AGU 2025</strong>
-            Attendance Confirmation • <a href="assets/agu/AGU_2025_attendance_confirmation.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/agu/AGU25_Certificate_talk.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>AGU25</strong>
-            Certificate (Talk) • <a href="assets/agu/AGU25_Certificate_talk.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
-      </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('agu-carousel', 380)">▶</button>
-    </div>
-  </div>
-
-  <!-- ===================== PRESENTATIONS (you can use later) ===================== -->
-  <div class="section" id="presentations">
-    <div class="section-header">
-      <h2>Presentations</h2>
-      <p class="hint">Upload to <code>assets/presentations/</code> (PDF works best)</p>
-    </div>
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('pres-carousel', -380)">◀</button>
-      <div class="carousel" id="pres-carousel">
-        <div class="item">
-          <div class="caption">
-            <strong>Coming soon</strong>
-            Upload presentation PDFs to <code>assets/presentations/</code> and I’ll add them here.
-          </div>
+        <div class="caption">
+          <strong>Discover Sustainability</strong>
+          Reviewer Certificate •
+          <a href="assets/journal-reviewer/Reviewer_Certificate_Discover_Sustainability.pdf" target="_blank">Open PDF</a>
         </div>
       </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('pres-carousel', 380)">▶</button>
+
     </div>
+    <button class="nav-button nav-right" onclick="scrollCarousel('jr', 380)">▶</button>
+  </div>
+</div>
+
+<!-- ===================== CONFERENCE REVIEWER ===================== -->
+<div class="section" id="conference-reviewer">
+  <div class="section-header">
+    <h2>Conference Reviewer</h2>
+    <p class="hint">Conference review & appreciation certificates</p>
   </div>
 
-  <div class="footer">
-    Tip: Some mobile browsers may not embed PDFs; the <b>Open PDF</b> link will still work everywhere.
+  <div class="carousel-container">
+    <button class="nav-button nav-left" onclick="scrollCarousel('cr', -380)">◀</button>
+    <div class="carousel" id="cr">
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/conference/BDAA_2025_CoA_Sandeep_Kumar_Chittimalli.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>BDAA 2025</strong>
+          Certificate of Appreciation •
+          <a href="assets/conference/BDAA_2025_CoA_Sandeep_Kumar_Chittimalli.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/conference/ISAECT_2025_Reviewer_Certificate.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>ISAECT 2025</strong>
+          Reviewer Certificate •
+          <a href="assets/conference/ISAECT_2025_Reviewer_Certificate.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+    </div>
+    <button class="nav-button nav-right" onclick="scrollCarousel('cr', 380)">▶</button>
+  </div>
+</div>
+
+<!-- ===================== HACKATHONS / JUDGING ===================== -->
+<div class="section" id="hackathons">
+  <div class="section-header">
+    <h2>Hackathons / Judging</h2>
+    <p class="hint">Evaluator, judging & acknowledgement certificates</p>
   </div>
 
-  <script>
-    function scrollCarousel(id, amount) {
-      const el = document.getElementById(id);
-      if (!el) return;
-      el.scrollBy({ left: amount, behavior: 'smooth' });
-    }
-  </script>
+  <div class="carousel-container">
+    <button class="nav-button nav-left" onclick="scrollCarousel('hack', -380)">◀</button>
+    <div class="carousel" id="hack">
+
+      <div class="item">
+        <img src="assets/certificates/sih-certificate-for-EVALUATOR.png" alt="SIH Evaluator">
+        <div class="caption">
+          <strong>Smart India Hackathon</strong>
+          Evaluator Certificate •
+          <a href="assets/certificates/sih-certificate-for-EVALUATOR.png" target="_blank">Open</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/certificates/Vibe_Demo_Day_Sep.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>Vibe Demo Day</strong>
+          September •
+          <a href="assets/certificates/Vibe_Demo_Day_Sep.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/certificates/Vibe_Demo_Day_Nov.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>Vibe Demo Day</strong>
+          November •
+          <a href="assets/certificates/Vibe_Demo_Day_Nov.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/certificates/Harrisburg_University_Virtual_Vibe_Coding_Hackathon.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>Harrisburg University</strong>
+          Virtual Vibe Coding Hackathon •
+          <a href="assets/certificates/Harrisburg_University_Virtual_Vibe_Coding_Hackathon.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/certificates/F1_Hackathon_Acknowledgement.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>F1 Hackathon</strong>
+          Acknowledgement •
+          <a href="assets/certificates/F1_Hackathon_Acknowledgement.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+    </div>
+    <button class="nav-button nav-right" onclick="scrollCarousel('hack', 380)">▶</button>
+  </div>
+</div>
+
+<!-- ===================== AGU ===================== -->
+<div class="section" id="agu">
+  <div class="section-header">
+    <h2>AGU</h2>
+    <p class="hint">American Geophysical Union</p>
+  </div>
+
+  <div class="carousel-container">
+    <button class="nav-button nav-left" onclick="scrollCarousel('agu', -380)">◀</button>
+    <div class="carousel" id="agu">
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/certificates/AGU_2025_attendance_confirmation.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>AGU 2025</strong>
+          Attendance Confirmation •
+          <a href="assets/certificates/AGU_2025_attendance_confirmation.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+      <div class="item">
+        <div class="pdf-wrap">
+          <iframe src="assets/certificates/AGU25_Certificate_talk.pdf"></iframe>
+        </div>
+        <div class="caption">
+          <strong>AGU 2025</strong>
+          Certificate of Presentation (Talk) •
+          <a href="assets/certificates/AGU25_Certificate_talk.pdf" target="_blank">Open PDF</a>
+        </div>
+      </div>
+
+    </div>
+    <button class="nav-button nav-right" onclick="scrollCarousel('agu', 380)">▶</button>
+  </div>
+</div>
+
+<div class="footer">
+  Tip: If a PDF doesn’t render on mobile, use the <b>Open PDF</b> link.
+</div>
+
+<script>
+  function scrollCarousel(id, amount) {
+    const el = document.getElementById(id);
+    if (!el) return;
+    el.scrollBy({ left: amount, behavior: 'smooth' });
+  }
+</script>
+
 </body>
 </html>
