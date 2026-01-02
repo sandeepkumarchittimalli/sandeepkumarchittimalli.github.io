@@ -42,7 +42,7 @@ I bring deep expertise in applying AI/ML to Earth observation, remote sensing, b
 ---
 
 ## Certificates
-➡️ See full list: [Certificates](certificates.html)
+➡️ See full list: [Certificates, Reviewing & Committees](highlights.html)
 
 ## Publications & Talks
 ➡️ See details: [Publications & Presentations](publications.md)
