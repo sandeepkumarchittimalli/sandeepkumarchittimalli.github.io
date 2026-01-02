@@ -2,7 +2,7 @@
 <html>
 <head>
   <meta charset="utf-8">
-  <title>Certificates, Reviewing & Committees</title>
+  <title>Sandeep Chittimalli — Highlights</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <style>
@@ -10,10 +10,7 @@
     h1 { margin: 0 0 6px; }
     .sub { margin: 0 0 18px; color: #555; }
 
-    .topbar {
-      display: flex; gap: 10px; flex-wrap: wrap;
-      margin: 14px 0 26px;
-    }
+    .topbar { display: flex; gap: 10px; flex-wrap: wrap; margin: 14px 0 26px; }
     .chip {
       display: inline-block; padding: 7px 12px;
       border: 1px solid #ddd; border-radius: 999px;
@@ -54,10 +51,8 @@
     .caption a { text-decoration: none; }
     .caption a:hover { text-decoration: underline; }
 
-    /* image display */
     .item img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; }
 
-    /* pdf display */
     .pdf-wrap {
       width: 100%;
       height: 200px;
@@ -66,11 +61,7 @@
       border: 1px solid #ddd;
       background: #fafafa;
     }
-    .pdf-wrap iframe {
-      width: 100%;
-      height: 100%;
-      border: 0;
-    }
+    .pdf-wrap iframe { width: 100%; height: 100%; border: 0; }
 
     .nav-button {
       position: absolute;
@@ -92,87 +83,57 @@
     .nav-right { right: 8px; }
 
     .footer { margin-top: 30px; padding-top: 14px; border-top: 1px solid #eee; color: #666; font-size: 13px; }
-    code { background: #f2f2f2; padding: 1px 4px; border-radius: 4px; }
   </style>
 </head>
 
 <body>
-  <h1>Sandeep Chittimalli — Highlights</h1>
+  <h1>Highlights</h1>
   <p class="sub">Swipe on mobile or use ◀ ▶ buttons. PDFs and images both display here.</p>
 
-  <!-- quick jump nav -->
   <div class="topbar">
     <a class="chip" href="#certificates">Certificates</a>
     <a class="chip" href="#presentations">Presentations</a>
     <a class="chip" href="#journal-reviewer">Journal Reviewer</a>
-    <a class="chip" href="#conference-reviewer">Conference Reviewer / Ad Reviewer</a>
-    <a class="chip" href="#pc-ipc">PC & IPC</a>
+    <a class="chip" href="#conference-reviewer">Conference Reviewer</a>
+    <a class="chip" href="#hackathons">Hackathons / Judging</a>
+    <a class="chip" href="#agu">AGU</a>
   </div>
 
-  <!-- ===================== CERTIFICATES ===================== -->
+  <!-- ===================== CERTIFICATES (you’ll fill later) ===================== -->
   <div class="section" id="certificates">
     <div class="section-header">
       <h2>Certificates</h2>
-      <p class="hint">Put files in <code>assets/certificates/</code></p>
+      <p class="hint">Upload to assets/certificates/ and add items here</p>
     </div>
-
     <div class="carousel-container">
       <button class="nav-button nav-left" onclick="scrollCarousel('cert-carousel', -380)">◀</button>
       <div class="carousel" id="cert-carousel">
-
-        <!-- Replace these with your real files -->
         <div class="item">
-          <img src="assets/certificates/cert1.png" alt="Certificate 1">
           <div class="caption">
-            <strong>Certificate Title</strong>
-            Provider (Year) • <a href="assets/certificates/cert1.png" target="_blank">Open</a>
+            <strong>Coming soon</strong>
+            Add your certificate files in <code>assets/certificates/</code> and then add <code>&lt;div class="item"&gt;</code> blocks.
           </div>
         </div>
-
-        <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/certificates/cert2.pdf"></iframe>
-          </div>
-          <div class="caption">
-            <strong>Certificate Title (PDF)</strong>
-            Provider (Year) • <a href="assets/certificates/cert2.pdf" target="_blank">Open PDF</a>
-          </div>
-        </div>
-
       </div>
       <button class="nav-button nav-right" onclick="scrollCarousel('cert-carousel', 380)">▶</button>
     </div>
   </div>
 
-  <!-- ===================== PRESENTATIONS ===================== -->
+  <!-- ===================== PRESENTATIONS (you’ll fill later) ===================== -->
   <div class="section" id="presentations">
     <div class="section-header">
       <h2>Presentations</h2>
-      <p class="hint">Put files in <code>assets/presentations/</code> (PDF works best)</p>
+      <p class="hint">Upload to assets/presentations/ (PDF works best)</p>
     </div>
-
     <div class="carousel-container">
       <button class="nav-button nav-left" onclick="scrollCarousel('pres-carousel', -380)">◀</button>
       <div class="carousel" id="pres-carousel">
-
         <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/presentations/pres1.pdf"></iframe>
-          </div>
           <div class="caption">
-            <strong>Talk / Presentation Title</strong>
-            Event (Year) • <a href="assets/presentations/pres1.pdf" target="_blank">Open PDF</a>
+            <strong>Coming soon</strong>
+            Upload presentation PDFs to <code>assets/presentations/</code> and add items here.
           </div>
         </div>
-
-        <div class="item">
-          <img src="assets/presentations/pres2.png" alt="Presentation Screenshot">
-          <div class="caption">
-            <strong>Presentation Screenshot</strong>
-            Caption • <a href="assets/presentations/pres2.png" target="_blank">Open</a>
-          </div>
-        </div>
-
       </div>
       <button class="nav-button nav-right" onclick="scrollCarousel('pres-carousel', 380)">▶</button>
     </div>
@@ -182,7 +143,7 @@
   <div class="section" id="journal-reviewer">
     <div class="section-header">
       <h2>Journal Reviewer</h2>
-      <p class="hint">Put files in <code>assets/journal-reviewer/</code></p>
+      <p class="hint">PDFs in assets/journal-reviewer/</p>
     </div>
 
     <div class="carousel-container">
@@ -191,19 +152,21 @@
 
         <div class="item">
           <div class="pdf-wrap">
-            <iframe src="assets/journal-reviewer/journal1.pdf"></iframe>
+            <iframe src="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Geoscience.pdf"></iframe>
           </div>
           <div class="caption">
-            <strong>Journal Reviewer Certificate</strong>
-            Journal name • <a href="assets/journal-reviewer/journal1.pdf" target="_blank">Open PDF</a>
+            <strong>Discover GeoScience</strong>
+            Reviewer Certificate • <a href="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Geoscience.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/journal-reviewer/journal2.png" alt="Journal Reviewer Badge">
+          <div class="pdf-wrap">
+            <iframe src="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Sustainability.pdf"></iframe>
+          </div>
           <div class="caption">
-            <strong>Reviewer Badge / Screenshot</strong>
-            Journal name • <a href="assets/journal-reviewer/journal2.png" target="_blank">Open</a>
+            <strong>Discover Sustainability</strong>
+            Reviewer Certificate • <a href="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Sustainability.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
@@ -212,11 +175,11 @@
     </div>
   </div>
 
-  <!-- ===================== CONFERENCE REVIEWER / AD REVIEWER ===================== -->
+  <!-- ===================== CONFERENCE REVIEWER ===================== -->
   <div class="section" id="conference-reviewer">
     <div class="section-header">
-      <h2>Conference Reviewer / Ad Reviewer</h2>
-      <p class="hint">Put files in <code>assets/conference-reviewer/</code></p>
+      <h2>Conference Reviewer</h2>
+      <p class="hint">PDFs in assets/conference-reviewer/</p>
     </div>
 
     <div class="carousel-container">
@@ -225,19 +188,21 @@
 
         <div class="item">
           <div class="pdf-wrap">
-            <iframe src="assets/conference-reviewer/conf1.pdf"></iframe>
+            <iframe src="assets/conference-reviewer/BDAA-2025_CoA_Sandeep%20Kumar%20Chittimalli.pdf"></iframe>
           </div>
           <div class="caption">
-            <strong>Conference Reviewer Certificate</strong>
-            Conference name (Year) • <a href="assets/conference-reviewer/conf1.pdf" target="_blank">Open PDF</a>
+            <strong>BDAA 2025</strong>
+            Certificate of Appreciation • <a href="assets/conference-reviewer/BDAA-2025_CoA_Sandeep%20Kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/conference-reviewer/conf2.png" alt="Reviewer Proof">
+          <div class="pdf-wrap">
+            <iframe src="assets/conference-reviewer/Reviewer%20Certificate_ISAECT%202025_CERTIFICATE%20OF%20APPRECIATION.pdf"></iframe>
+          </div>
           <div class="caption">
-            <strong>Ad Reviewer / Reviewer Proof</strong>
-            Conference name • <a href="assets/conference-reviewer/conf2.png" target="_blank">Open</a>
+            <strong>ISAECT 2025</strong>
+            Reviewer Certificate • <a href="assets/conference-reviewer/Reviewer%20Certificate_ISAECT%202025_CERTIFICATE%20OF%20APPRECIATION.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
@@ -246,42 +211,98 @@
     </div>
   </div>
 
-  <!-- ===================== PC & IPC ===================== -->
-  <div class="section" id="pc-ipc">
+  <!-- ===================== HACKATHONS / JUDGING ===================== -->
+  <div class="section" id="hackathons">
     <div class="section-header">
-      <h2>Program Committee (PC) & International Program Committee (IPC)</h2>
-      <p class="hint">Put files in <code>assets/pc-ipc/</code></p>
+      <h2>Hackathons / Judging / Evaluations</h2>
+      <p class="hint">Upload to assets/hackathons/</p>
     </div>
 
     <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('pc-carousel', -380)">◀</button>
-      <div class="carousel" id="pc-carousel">
+      <button class="nav-button nav-left" onclick="scrollCarousel('hack-carousel', -380)">◀</button>
+      <div class="carousel" id="hack-carousel">
 
         <div class="item">
-          <div class="pdf-wrap">
-            <iframe src="assets/pc-ipc/pc1.pdf"></iframe>
-          </div>
+          <img src="assets/hackathons/sih-certificate-for-EVALUATOR-86096783.png" alt="Smart India Hackathon Evaluator">
           <div class="caption">
-            <strong>PC / IPC Invitation / Certificate</strong>
-            Event name (Year) • <a href="assets/pc-ipc/pc1.pdf" target="_blank">Open PDF</a>
+            <strong>Smart India Hackathon (SIH)</strong>
+            Evaluator Certificate • <a href="assets/hackathons/sih-certificate-for-EVALUATOR-86096783.png" target="_blank">Open</a>
           </div>
         </div>
 
         <div class="item">
-          <img src="assets/pc-ipc/pc2.png" alt="PC/IPC proof">
+          <div class="pdf-wrap">
+            <iframe src="assets/hackathons/Vibe_Demo_Day%20-%20sandeep%20kumar%20Chittimalli.pdf"></iframe>
+          </div>
           <div class="caption">
-            <strong>PC / IPC Screenshot / Badge</strong>
-            Event name • <a href="assets/pc-ipc/pc2.png" target="_blank">Open</a>
+            <strong>Vibe Demo Day</strong>
+            Certificate • <a href="assets/hackathons/Vibe_Demo_Day%20-%20sandeep%20kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/hackathons/Vibe_Demo_Day2%20-%20sandeep%20kumar%20Chittimalli.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>Vibe Demo Day 2</strong>
+            Certificate • <a href="assets/hackathons/Vibe_Demo_Day2%20-%20sandeep%20kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/hackathons/F1%20Hackathon%20Acknowledgement-Sandeep%20chittimalli.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>F1 Hackathon</strong>
+            Acknowledgement • <a href="assets/hackathons/F1%20Hackathon%20Acknowledgement-Sandeep%20chittimalli.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
       </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('pc-carousel', 380)">▶</button>
+      <button class="nav-button nav-right" onclick="scrollCarousel('hack-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <!-- ===================== AGU ===================== -->
+  <div class="section" id="agu">
+    <div class="section-header">
+      <h2>AGU</h2>
+      <p class="hint">Upload to assets/agu/</p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('agu-carousel', -380)">◀</button>
+      <div class="carousel" id="agu-carousel">
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/agu/AGU_2025_attendance_confirmation.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>AGU 2025</strong>
+            Attendance Confirmation • <a href="assets/agu/AGU_2025_attendance_confirmation.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/agu/AGU25%20Certificate%20of%20Presentation_talk%20-%20Sandeep%20Kumar%20Chittimalli.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>AGU25</strong>
+            Certificate of Presentation (Talk) • <a href="assets/agu/AGU25%20Certificate%20of%20Presentation_talk%20-%20Sandeep%20Kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('agu-carousel', 380)">▶</button>
     </div>
   </div>
 
   <div class="footer">
-    Tip: If an embedded PDF doesn’t render on a phone browser, the <b>Open PDF</b> link will still work.
+    Tip: Some mobile browsers may not embed PDFs; the <b>Open PDF</b> link will still work everywhere.
   </div>
 
   <script>
