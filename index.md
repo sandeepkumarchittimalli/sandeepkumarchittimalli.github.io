@@ -3,7 +3,7 @@ layout: default
 title: Sandeep Chittimalli
 ---
 
-<img src="assets/headshot.png" alt="Sandeep Chittimalli" width="180"/>
+<img src="assets/Headshot_photo.png" alt="Sandeep Chittimalli" width="180"/>
 
 # Sandeep Chittimalli
 **Senior Data Scientist | AI/ML Expert | Federal & Research Systems**
