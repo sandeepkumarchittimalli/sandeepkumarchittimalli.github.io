@@ -67,13 +67,10 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 - Computer Vision for Earth Observation Workshop Series — WACV — USA  
 - Icebumd: 1st International Conference AI, EDGE & BLOCKCHAIN SYSTEMS — USA  
 
-> Removed “FLAIRS : The 39th International FLAIRS Conference — 2026 USA” (not confirmed).
-
 ---
 
 ## Peer Reviewer (Journals)
 
-:contentReference[oaicite:3]{index=3}  
 - Springer Nature — Discover GeoScience  
 - Springer Nature — Discover Sustainability  
 - IEEE  
@@ -84,7 +81,6 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ## Membership
 
-:contentReference[oaicite:4]{index=4}  
 - International Society for Photogrammetry and Remote Sensing (ISPRS) — Regular Member  
 - Institute for Systems and Technologies of Information, Control and Communication (INSTICC) — Regular Member  
 - GCSAYN Research and Scientific Committee (GRSC) — Core Advisory Group Member  
