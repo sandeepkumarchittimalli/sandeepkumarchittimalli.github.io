@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <title>Certificates, Reviewing & Committees</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+
+  <style>
+    body { font-family: Arial, sans-serif; max-width: 1150px; margin: 36px auto; padding: 0 16px; line-height: 1.6; }
+    h1 { margin: 0 0 6px; }
+    .sub { margin: 0 0 18px; color: #555; }
+
+    .topbar {
+      display: flex; gap: 10px; flex-wrap: wrap;
+      margin: 14px 0 26px;
+    }
+    .chip {
+      display: inline-block; padding: 7px 12px;
+      border: 1px solid #ddd; border-radius: 999px;
+      text-decoration: none; color: #111; background: #fff;
+    }
+    .chip:hover { text-decoration: underline; }
+
+    .section { margin: 34px 0; }
+    .section-header { display: flex; align-items: baseline; justify-content: space-between; gap: 12px; }
+    .section-header h2 { margin: 0; }
+    .hint { color: #666; font-size: 13px; margin: 0; }
+
+    .carousel-container { position: relative; overflow: hidden; margin-top: 12px; border-radius: 12px; }
+    .carousel {
+      display: flex;
+      overflow-x: auto;
+      scroll-behavior: smooth;
+      gap: 16px;
+      padding: 14px 46px; /* room for buttons */
+      background: #fafafa;
+      border: 1px solid #eee;
+      border-radius: 12px;
+    }
+    .carousel::-webkit-scrollbar { display: none; }
+
+    .item {
+      flex: 0 0 auto;
+      width: 340px;
+      border: 1px solid #e6e6e6;
+      border-radius: 12px;
+      padding: 10px;
+      background: #fff;
+      box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+    }
+
+    .caption { margin-top: 8px; font-size: 14px; }
+    .caption strong { display: block; margin-bottom: 2px; }
+    .caption a { text-decoration: none; }
+    .caption a:hover { text-decoration: underline; }
+
+    /* image display */
+    .item img { width: 100%; height: 200px; object-fit: cover; border-radius: 10px; }
+
+    /* pdf display */
+    .pdf-wrap {
+      width: 100%;
+      height: 200px;
+      border-radius: 10px;
+      overflow: hidden;
+      border: 1px solid #ddd;
+      background: #fafafa;
+    }
+    .pdf-wrap iframe {
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+
+    .nav-button {
+      position: absolute;
+      top: 50%;
+      transform: translateY(-50%);
+      background: #fff;
+      border: 1px solid #ccc;
+      width: 34px;
+      height: 34px;
+      border-radius: 50%;
+      cursor: pointer;
+      font-size: 18px;
+      display: grid;
+      place-items: center;
+      user-select: none;
+      z-index: 2;
+    }
+    .nav-left { left: 8px; }
+    .nav-right { right: 8px; }
+
+    .footer { margin-top: 30px; padding-top: 14px; border-top: 1px solid #eee; color: #666; font-size: 13px; }
+    code { background: #f2f2f2; padding: 1px 4px; border-radius: 4px; }
+  </style>
+</head>
+
+<body>
+  <h1>Sandeep Chittimalli — Highlights</h1>
+  <p class="sub">Swipe on mobile or use ◀ ▶ buttons. PDFs and images both display here.</p>
+
+  <!-- quick jump nav -->
+  <div class="topbar">
+    <a class="chip" href="#certificates">Certificates</a>
+    <a class="chip" href="#presentations">Presentations</a>
+    <a class="chip" href="#journal-reviewer">Journal Reviewer</a>
+    <a class="chip" href="#conference-reviewer">Conference Reviewer / Ad Reviewer</a>
+    <a class="chip" href="#pc-ipc">PC & IPC</a>
+  </div>
+
+  <!-- ===================== CERTIFICATES ===================== -->
+  <div class="section" id="certificates">
+    <div class="section-header">
+      <h2>Certificates</h2>
+      <p class="hint">Put files in <code>assets/certificates/</code></p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('cert-carousel', -380)">◀</button>
+      <div class="carousel" id="cert-carousel">
+
+        <!-- Replace these with your real files -->
+        <div class="item">
+          <img src="assets/certificates/cert1.png" alt="Certificate 1">
+          <div class="caption">
+            <strong>Certificate Title</strong>
+            Provider (Year) • <a href="assets/certificates/cert1.png" target="_blank">Open</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/certificates/cert2.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>Certificate Title (PDF)</strong>
+            Provider (Year) • <a href="assets/certificates/cert2.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('cert-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <!-- ===================== PRESENTATIONS ===================== -->
+  <div class="section" id="presentations">
+    <div class="section-header">
+      <h2>Presentations</h2>
+      <p class="hint">Put files in <code>assets/presentations/</code> (PDF works best)</p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('pres-carousel', -380)">◀</button>
+      <div class="carousel" id="pres-carousel">
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/presentations/pres1.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>Talk / Presentation Title</strong>
+            Event (Year) • <a href="assets/presentations/pres1.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/presentations/pres2.png" alt="Presentation Screenshot">
+          <div class="caption">
+            <strong>Presentation Screenshot</strong>
+            Caption • <a href="assets/presentations/pres2.png" target="_blank">Open</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('pres-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <!-- ===================== JOURNAL REVIEWER ===================== -->
+  <div class="section" id="journal-reviewer">
+    <div class="section-header">
+      <h2>Journal Reviewer</h2>
+      <p class="hint">Put files in <code>assets/journal-reviewer/</code></p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('jr-carousel', -380)">◀</button>
+      <div class="carousel" id="jr-carousel">
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/journal-reviewer/journal1.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>Journal Reviewer Certificate</strong>
+            Journal name • <a href="assets/journal-reviewer/journal1.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/journal-reviewer/journal2.png" alt="Journal Reviewer Badge">
+          <div class="caption">
+            <strong>Reviewer Badge / Screenshot</strong>
+            Journal name • <a href="assets/journal-reviewer/journal2.png" target="_blank">Open</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('jr-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <!-- ===================== CONFERENCE REVIEWER / AD REVIEWER ===================== -->
+  <div class="section" id="conference-reviewer">
+    <div class="section-header">
+      <h2>Conference Reviewer / Ad Reviewer</h2>
+      <p class="hint">Put files in <code>assets/conference-reviewer/</code></p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('cr-carousel', -380)">◀</button>
+      <div class="carousel" id="cr-carousel">
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/conference-reviewer/conf1.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>Conference Reviewer Certificate</strong>
+            Conference name (Year) • <a href="assets/conference-reviewer/conf1.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/conference-reviewer/conf2.png" alt="Reviewer Proof">
+          <div class="caption">
+            <strong>Ad Reviewer / Reviewer Proof</strong>
+            Conference name • <a href="assets/conference-reviewer/conf2.png" target="_blank">Open</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('cr-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <!-- ===================== PC & IPC ===================== -->
+  <div class="section" id="pc-ipc">
+    <div class="section-header">
+      <h2>Program Committee (PC) & International Program Committee (IPC)</h2>
+      <p class="hint">Put files in <code>assets/pc-ipc/</code></p>
+    </div>
+
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('pc-carousel', -380)">◀</button>
+      <div class="carousel" id="pc-carousel">
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/pc-ipc/pc1.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>PC / IPC Invitation / Certificate</strong>
+            Event name (Year) • <a href="assets/pc-ipc/pc1.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <img src="assets/pc-ipc/pc2.png" alt="PC/IPC proof">
+          <div class="caption">
+            <strong>PC / IPC Screenshot / Badge</strong>
+            Event name • <a href="assets/pc-ipc/pc2.png" target="_blank">Open</a>
+          </div>
+        </div>
+
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('pc-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <div class="footer">
+    Tip: If an embedded PDF doesn’t render on a phone browser, the <b>Open PDF</b> link will still work.
+  </div>
+
+  <script>
+    function scrollCarousel(id, amount) {
+      const el = document.getElementById(id);
+      if (!el) return;
+      el.scrollBy({ left: amount, behavior: 'smooth' });
+    }
+  </script>
+</body>
+</html>
