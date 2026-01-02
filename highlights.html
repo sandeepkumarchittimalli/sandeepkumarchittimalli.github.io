@@ -29,7 +29,7 @@
       overflow-x: auto;
       scroll-behavior: smooth;
       gap: 16px;
-      padding: 14px 46px; /* room for buttons */
+      padding: 14px 46px;
       background: #fafafa;
       border: 1px solid #eee;
       border-radius: 12px;
@@ -92,18 +92,18 @@
 
   <div class="topbar">
     <a class="chip" href="#certificates">Certificates</a>
-    <a class="chip" href="#presentations">Presentations</a>
     <a class="chip" href="#journal-reviewer">Journal Reviewer</a>
     <a class="chip" href="#conference-reviewer">Conference Reviewer</a>
     <a class="chip" href="#hackathons">Hackathons / Judging</a>
     <a class="chip" href="#agu">AGU</a>
+    <a class="chip" href="#presentations">Presentations</a>
   </div>
 
-  <!-- ===================== CERTIFICATES (you’ll fill later) ===================== -->
+  <!-- ===================== CERTIFICATES (you will add after upload) ===================== -->
   <div class="section" id="certificates">
     <div class="section-header">
       <h2>Certificates</h2>
-      <p class="hint">Upload to assets/certificates/ and add items here</p>
+      <p class="hint">Upload to <code>assets/certificates/</code> (I’ll add items when you share filenames)</p>
     </div>
     <div class="carousel-container">
       <button class="nav-button nav-left" onclick="scrollCarousel('cert-carousel', -380)">◀</button>
@@ -111,7 +111,7 @@
         <div class="item">
           <div class="caption">
             <strong>Coming soon</strong>
-            Add your certificate files in <code>assets/certificates/</code> and then add <code>&lt;div class="item"&gt;</code> blocks.
+            Upload your certificate PDFs/images to <code>assets/certificates/</code>, then send filenames and I’ll plug them in.
           </div>
         </div>
       </div>
@@ -119,37 +119,18 @@
     </div>
   </div>
 
-  <!-- ===================== PRESENTATIONS (you’ll fill later) ===================== -->
-  <div class="section" id="presentations">
-    <div class="section-header">
-      <h2>Presentations</h2>
-      <p class="hint">Upload to assets/presentations/ (PDF works best)</p>
-    </div>
-    <div class="carousel-container">
-      <button class="nav-button nav-left" onclick="scrollCarousel('pres-carousel', -380)">◀</button>
-      <div class="carousel" id="pres-carousel">
-        <div class="item">
-          <div class="caption">
-            <strong>Coming soon</strong>
-            Upload presentation PDFs to <code>assets/presentations/</code> and add items here.
-          </div>
-        </div>
-      </div>
-      <button class="nav-button nav-right" onclick="scrollCarousel('pres-carousel', 380)">▶</button>
-    </div>
-  </div>
-
   <!-- ===================== JOURNAL REVIEWER ===================== -->
   <div class="section" id="journal-reviewer">
     <div class="section-header">
       <h2>Journal Reviewer</h2>
-      <p class="hint">PDFs in assets/journal-reviewer/</p>
+      <p class="hint">Upload to <code>assets/journal-reviewer/</code></p>
     </div>
 
     <div class="carousel-container">
       <button class="nav-button nav-left" onclick="scrollCarousel('jr-carousel', -380)">◀</button>
       <div class="carousel" id="jr-carousel">
 
+        <!-- If you renamed these, update the filenames here to match exactly -->
         <div class="item">
           <div class="pdf-wrap">
             <iframe src="assets/journal-reviewer/Reviewer%20Certificate%20Discover%20Geoscience.pdf"></iframe>
@@ -179,13 +160,14 @@
   <div class="section" id="conference-reviewer">
     <div class="section-header">
       <h2>Conference Reviewer</h2>
-      <p class="hint">PDFs in assets/conference-reviewer/</p>
+      <p class="hint">Upload to <code>assets/conference-reviewer/</code></p>
     </div>
 
     <div class="carousel-container">
       <button class="nav-button nav-left" onclick="scrollCarousel('cr-carousel', -380)">◀</button>
       <div class="carousel" id="cr-carousel">
 
+        <!-- If you renamed these, update the filenames here to match exactly -->
         <div class="item">
           <div class="pdf-wrap">
             <iframe src="assets/conference-reviewer/BDAA-2025_CoA_Sandeep%20Kumar%20Chittimalli.pdf"></iframe>
@@ -211,11 +193,11 @@
     </div>
   </div>
 
-  <!-- ===================== HACKATHONS / JUDGING ===================== -->
+  <!-- ===================== HACKATHONS / JUDGING (UPDATED FILENAMES) ===================== -->
   <div class="section" id="hackathons">
     <div class="section-header">
       <h2>Hackathons / Judging / Evaluations</h2>
-      <p class="hint">Upload to assets/hackathons/</p>
+      <p class="hint">Upload to <code>assets/hackathons/</code></p>
     </div>
 
     <div class="carousel-container">
@@ -223,40 +205,51 @@
       <div class="carousel" id="hack-carousel">
 
         <div class="item">
-          <img src="assets/hackathons/sih-certificate-for-EVALUATOR-86096783.png" alt="Smart India Hackathon Evaluator">
+          <img src="assets/hackathons/sih-certificate-for-EVALUATOR.png" alt="Smart India Hackathon Evaluator">
           <div class="caption">
             <strong>Smart India Hackathon (SIH)</strong>
-            Evaluator Certificate • <a href="assets/hackathons/sih-certificate-for-EVALUATOR-86096783.png" target="_blank">Open</a>
+            Evaluator Certificate • <a href="assets/hackathons/sih-certificate-for-EVALUATOR.png" target="_blank">Open</a>
           </div>
         </div>
 
         <div class="item">
           <div class="pdf-wrap">
-            <iframe src="assets/hackathons/Vibe_Demo_Day%20-%20sandeep%20kumar%20Chittimalli.pdf"></iframe>
+            <iframe src="assets/hackathons/Vibe_Demo_Day_Sep.pdf"></iframe>
           </div>
           <div class="caption">
             <strong>Vibe Demo Day</strong>
-            Certificate • <a href="assets/hackathons/Vibe_Demo_Day%20-%20sandeep%20kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
+            September • <a href="assets/hackathons/Vibe_Demo_Day_Sep.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
         <div class="item">
           <div class="pdf-wrap">
-            <iframe src="assets/hackathons/Vibe_Demo_Day2%20-%20sandeep%20kumar%20Chittimalli.pdf"></iframe>
+            <iframe src="assets/hackathons/Vibe_Demo_Day_Nov.pdf"></iframe>
           </div>
           <div class="caption">
-            <strong>Vibe Demo Day 2</strong>
-            Certificate • <a href="assets/hackathons/Vibe_Demo_Day2%20-%20sandeep%20kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
+            <strong>Vibe Demo Day</strong>
+            November • <a href="assets/hackathons/Vibe_Demo_Day_Nov.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
         <div class="item">
           <div class="pdf-wrap">
-            <iframe src="assets/hackathons/F1%20Hackathon%20Acknowledgement-Sandeep%20chittimalli.pdf"></iframe>
+            <!-- NOTE: this file has a space in the name; %20 is required -->
+            <iframe src="assets/hackathons/Harrisburg_University_Virtual_Vibe_Coding%20Hackathon.pdf"></iframe>
+          </div>
+          <div class="caption">
+            <strong>Harrisburg University</strong>
+            Virtual Vibe Coding Hackathon • <a href="assets/hackathons/Harrisburg_University_Virtual_Vibe_Coding%20Hackathon.pdf" target="_blank">Open PDF</a>
+          </div>
+        </div>
+
+        <div class="item">
+          <div class="pdf-wrap">
+            <iframe src="assets/hackathons/F1_Hackathon_Acknowledgement.pdf"></iframe>
           </div>
           <div class="caption">
             <strong>F1 Hackathon</strong>
-            Acknowledgement • <a href="assets/hackathons/F1%20Hackathon%20Acknowledgement-Sandeep%20chittimalli.pdf" target="_blank">Open PDF</a>
+            Acknowledgement • <a href="assets/hackathons/F1_Hackathon_Acknowledgement.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
@@ -265,11 +258,11 @@
     </div>
   </div>
 
-  <!-- ===================== AGU ===================== -->
+  <!-- ===================== AGU (UPDATED FILENAMES) ===================== -->
   <div class="section" id="agu">
     <div class="section-header">
       <h2>AGU</h2>
-      <p class="hint">Upload to assets/agu/</p>
+      <p class="hint">Upload to <code>assets/agu/</code></p>
     </div>
 
     <div class="carousel-container">
@@ -288,16 +281,36 @@
 
         <div class="item">
           <div class="pdf-wrap">
-            <iframe src="assets/agu/AGU25%20Certificate%20of%20Presentation_talk%20-%20Sandeep%20Kumar%20Chittimalli.pdf"></iframe>
+            <iframe src="assets/agu/AGU25_Certificate_talk.pdf"></iframe>
           </div>
           <div class="caption">
             <strong>AGU25</strong>
-            Certificate of Presentation (Talk) • <a href="assets/agu/AGU25%20Certificate%20of%20Presentation_talk%20-%20Sandeep%20Kumar%20Chittimalli.pdf" target="_blank">Open PDF</a>
+            Certificate (Talk) • <a href="assets/agu/AGU25_Certificate_talk.pdf" target="_blank">Open PDF</a>
           </div>
         </div>
 
       </div>
       <button class="nav-button nav-right" onclick="scrollCarousel('agu-carousel', 380)">▶</button>
+    </div>
+  </div>
+
+  <!-- ===================== PRESENTATIONS (you can use later) ===================== -->
+  <div class="section" id="presentations">
+    <div class="section-header">
+      <h2>Presentations</h2>
+      <p class="hint">Upload to <code>assets/presentations/</code> (PDF works best)</p>
+    </div>
+    <div class="carousel-container">
+      <button class="nav-button nav-left" onclick="scrollCarousel('pres-carousel', -380)">◀</button>
+      <div class="carousel" id="pres-carousel">
+        <div class="item">
+          <div class="caption">
+            <strong>Coming soon</strong>
+            Upload presentation PDFs to <code>assets/presentations/</code> and I’ll add them here.
+          </div>
+        </div>
+      </div>
+      <button class="nav-button nav-right" onclick="scrollCarousel('pres-carousel', 380)">▶</button>
     </div>
   </div>
 
