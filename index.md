@@ -25,7 +25,7 @@ I bring deep expertise in applying AI/ML to Earth observation, remote sensing, n
 ---
 
 ## Resume
-📄 [Download CV (PDF)](assets/resume.pdf)
+📄 [Download CV (PDF)](assets/Sandeep_chittimalli_Academic_CV_Updated.pdf)
 
 ---
 
