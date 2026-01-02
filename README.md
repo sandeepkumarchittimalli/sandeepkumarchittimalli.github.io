@@ -1,1 +1,1 @@
-# sandeepkumarchittimalli.github.io
+# sandeepkumarchittimalli
