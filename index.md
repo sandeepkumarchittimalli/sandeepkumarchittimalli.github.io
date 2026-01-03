@@ -50,7 +50,7 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ## Program Committee (PC) & International Program Committee (IPC)
 
-**Selected national & international conferences (PC / IPC):** :contentReference[oaicite:2]{index=2}
+**Selected national & international conferences (PC / IPC):**
 
 - 13th IEEE Conference on Systems, Process & Control (ICSPC 2025) — Malacca, Malaysia  
 - 22nd IEEE International Colloquium on Signal Processing & Its Applications — Langkawi, Malaysia  
