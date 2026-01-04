@@ -24,6 +24,50 @@ He brings deep expertise in applying artificial intelligence and machine learnin
 
 A recognized expert in the field, he has served as a judge and reviewer for multiple research and innovation events, known for his commitment to constructive, timely, and rigorous evaluations. He remains passionate about staying at the forefront of emerging trends in Artificial Intelligence, Machine Learning, and Data Science, continuously pushing the boundaries of what is possible with intelligent systems.
 
+## Academic Credentials
+
+<div class="edu-timeline">
+
+  <div class="edu-item">
+    <div class="edu-year">2015 – 2016</div>
+    <div class="edu-content">
+      <h4>Master of Science (MS) — Electrical Engineering (Image Processing)</h4>
+      <p><strong>South Dakota State University</strong>, Brookings, South Dakota, USA</p>
+      <ul>
+        <li><strong>Project:</strong> 3D Object & Image Modelling using Phase Shifting Profilometry and Gamma Correction</li>
+        <li><strong>Project:</strong> Canon EOS 450D Radiometric Calibration</li>
+        <li><strong>Thesis:</strong> Reflectance-Based Calibration and Validation of the Landsat Satellite Archive</li>
+        <li><a href="https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd" target="_blank">View Thesis (OpenPrairie)</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-year">2013 – 2014</div>
+    <div class="edu-content">
+      <h4>Master of Technology (M.Tech) — VLSI System Design</h4>
+      <p><strong>Jawaharlal Nehru Technological University</strong>, Hyderabad, India</p>
+    </div>
+  </div>
+
+  <div class="edu-item">
+    <div class="edu-year">2008 – 2012</div>
+    <div class="edu-content">
+      <h4>Bachelor of Technology (B.Tech) — Electronics & Communication Engineering</h4>
+      <p><strong>Jawaharlal Nehru Technological University</strong>, Hyderabad, India</p>
+      <ul>
+        <li><strong>Project:</strong> Image Enhancement & Noise Removal using Adaptive Bilateral Filters</li>
+        <li><strong>Thesis:</strong> Frame Synchronizer for satellite data capture</li>
+      </ul>
+    </div>
+  </div>
+
+</div>
+
+
+
+
+
 ---
 
 ## Resume
@@ -57,5 +101,39 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ## Volunteer Service & Memberships
 ➡️ [Program Committees, Peer Review & Memberships](service.html)
+
+<style>
+.edu-timeline {
+  border-left: 3px solid #ddd;
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.edu-item {
+  margin-bottom: 30px;
+  position: relative;
+}
+.edu-item::before {
+  content: "";
+  position: absolute;
+  left: -11px;
+  top: 5px;
+  width: 14px;
+  height: 14px;
+  background: #fff;
+  border: 3px solid #555;
+  border-radius: 50%;
+}
+.edu-year {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 6px;
+}
+.edu-content h4 {
+  margin: 4px 0;
+}
+.edu-content ul {
+  margin-top: 6px;
+}
+</style>
 
 
