@@ -1,0 +1,67 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Experience organizations word cloud (dark mode)">
+  <defs>
+    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.6"></feDropShadow>
+    </filter>
+
+    <style>
+      .t { font-family: Arial, sans-serif; font-weight: 800; fill: #ffffff; }
+      .tDark { font-family: Arial, sans-serif; font-weight: 800; fill: #0f172a; }
+    </style>
+  </defs>
+
+  <!-- Dark background -->
+  <rect x="0" y="0" width="1200" height="520" fill="#0b0f19"></rect>
+
+  <!-- Big anchors -->
+  <g filter="url(#shadow)">
+    <circle cx="345" cy="235" r="92" fill="#3b82f6"></circle>
+    <text x="345" y="248" text-anchor="middle" class="t" font-size="36">NASA</text>
+
+    <circle cx="610" cy="185" r="78" fill="#10b981"></circle>
+    <text x="610" y="198" text-anchor="middle" class="t" font-size="30">USGS</text>
+
+    <circle cx="800" cy="285" r="72" fill="#f59e0b"></circle>
+    <text x="800" y="298" text-anchor="middle" class="t" font-size="30">SDSU</text>
+
+    <circle cx="955" cy="205" r="66" fill="#a855f7"></circle>
+    <text x="955" y="218" text-anchor="middle" class="t" font-size="28">NSF</text>
+  </g>
+
+  <!-- Medium cluster -->
+  <g filter="url(#shadow)">
+    <circle cx="520" cy="325" r="58" fill="#ef4444"></circle>
+    <text x="520" y="338" text-anchor="middle" class="t" font-size="22">SMDI</text>
+
+    <circle cx="680" cy="375" r="54" fill="#14b8a6"></circle>
+    <text x="680" y="388" text-anchor="middle" class="t" font-size="22">USRA</text>
+
+    <circle cx="905" cy="345" r="50" fill="#f97316"></circle>
+    <text x="905" y="358" text-anchor="middle" class="t" font-size="20">AGU</text>
+
+    <circle cx="1025" cy="300" r="46" fill="#38bdf8"></circle>
+    <text x="1025" y="313" text-anchor="middle" class="t" font-size="18">ESIP</text>
+  </g>
+
+  <!-- Small cluster -->
+  <g filter="url(#shadow)">
+    <circle cx="230" cy="355" r="44" fill="#22c55e"></circle>
+    <text x="230" y="368" text-anchor="middle" class="t" font-size="18">C1</text>
+
+    <circle cx="140" cy="290" r="40" fill="#dc2626"></circle>
+    <text x="140" y="302" text-anchor="middle" class="t" font-size="16">DEX</text>
+
+    <circle cx="175" cy="185" r="42" fill="#2dd4bf"></circle>
+    <g transform="translate(175,185) rotate(-18)">
+      <text x="0" y="8" text-anchor="middle" class="t" font-size="15">YMTS</text>
+    </g>
+
+    <circle cx="470" cy="120" r="40" fill="#fde047"></circle>
+    <text x="470" y="133" text-anchor="middle" class="tDark" font-size="14">JBIET</text>
+
+    <circle cx="1035" cy="405" r="36" fill="#64748b"></circle>
+    <g transform="translate(1035,405) rotate(-12)">
+      <text x="0" y="7" text-anchor="middle" class="t" font-size="12">SDSU-IP</text>
+    </g>
+  </g>
+</svg>
