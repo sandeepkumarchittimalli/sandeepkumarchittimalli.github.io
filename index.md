@@ -55,6 +55,8 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 - **Project 1:** 3D Object and Image Modelling using Phase Shifting Profilometry and Gamma Correction  
 - **Project 2:** Canon EOS 450D Radiometric Calibration  
 - **Project 3:** Image Enhancement and Noise Removal using Adaptive Bilateral Filters
+
+  
 ### Bachelor’s Main Project
 - **Project 4:** Frame Synchronizer — a module to synchronize and capture data from satellite streams
 
