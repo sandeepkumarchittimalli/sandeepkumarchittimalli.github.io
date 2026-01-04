@@ -39,14 +39,9 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 <img src="assets/education_timeline.svg" alt="Education timeline" style="max-width:100%; height:auto; border:1px solid #eee; border-radius:12px; padding:10px; background:#fff;" />
 
-- **Electrical Engineer (Emphasis in Image Processing)**, South Dakota State University (Jan 2015 – Dec 2016)  
   Thesis: [Reflectance-Based Calibration and Validation of the Landsat Satellite Archive](https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd)
 
-- **Master of Technology (M.Tech) — VLSI System Design**, Jawaharlal Nehru Technological University, Hyderabad, India (Mar 2013 – Nov 2014)
 
-- **Bachelor of Technology (B.Tech) — Electronics & Communication Engineering**, Jawaharlal Nehru Technological University, Hyderabad, India (Sep 2008 – May 2012)
-
----
 
 ## Resume
 📄 [Download CV (PDF)](assets/Sandeep_chittimalli_Academic_CV_Updated.pdf)
