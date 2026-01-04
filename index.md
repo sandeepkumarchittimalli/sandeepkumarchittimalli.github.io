@@ -46,6 +46,7 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 - Infrasturcture architech for Scienitifc research projects
 - NLP & Text Analytics
 - Cloud-Native ML Systems (AWS)
+  
 ---
 
 ## Volunteer Service & Memberships
