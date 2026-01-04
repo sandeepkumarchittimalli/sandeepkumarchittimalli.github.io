@@ -12,7 +12,6 @@ title: Sandeep Chittimalli
 📧 Sandeepkumarchittimalli@gmail.com  
 🔗 [Google Scholar](https://scholar.google.com/citations?user=OO7rpLMAAAAJ&hl=en&oi=ao)  
 
-![Citations (10.1016/j.rse.2018.10.027)](https://api.juleskreuer.eu/citation-badge.php?doi=10.1016/j.rse.2018.10.027)
 ![Citations](https://img.shields.io/badge/Total%20Citations-308-blue)
 
 
