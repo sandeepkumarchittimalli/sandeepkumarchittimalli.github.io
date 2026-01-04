@@ -39,9 +39,14 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 <img src="assets/education_timeline.svg" alt="Education timeline" style="max-width:100%; height:auto; border:1px solid #eee; border-radius:12px; padding:10px; background:#fff;" />
 
-  Thesis: [Reflectance-Based Calibration and Validation of the Landsat Satellite Archive](https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd)
-
-
+  Master's Thesis: [Reflectance-Based Calibration and Validation of the Landsat Satellite Archive](https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd)
+  Advisor: [Dr. Dennis Helder] (https://www.sdstate.edu/directory/dennis-helder)
+  
+## Academic Projects
+  Project 1: 3D Object and Image Modelling by Phase Shifting Profilometry and Gamma Correction.
+  Project 2: Canon EOS 450D Radiometric Calibration.
+  Project 3: Image Enhancement and Noise Removal using Adaptive Bilateral Filters.
+  Project 4: Frame Synchronizer (A module which synchronizes and captures data coming from satellites).
 
 ## Resume
 📄 [Download CV (PDF)](assets/Sandeep_chittimalli_Academic_CV_Updated.pdf)
