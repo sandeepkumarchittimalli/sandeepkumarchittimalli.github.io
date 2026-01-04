@@ -10,32 +10,40 @@
     h1 { margin-bottom: 6px; }
     h2 { margin-top: 26px; }
     ul { padding-left: 18px; }
-    li { margin-bottom: 12px; }
+    li { margin-bottom: 14px; }
     .btn {
       display:inline-block;
-      margin-top: 6px;
-      padding: 6px 10px;
+      margin: 6px 8px 0 0;
+      padding: 7px 10px;
       border: 1px solid #ddd;
-      border-radius: 8px;
+      border-radius: 10px;
       text-decoration: none;
       color: #111;
       font-size: 13px;
+      white-space: nowrap;
     }
     .btn:hover { text-decoration: underline; }
+    .topbar { display:flex; gap:10px; flex-wrap:wrap; margin: 12px 0 18px; }
   </style>
 </head>
 
 <body>
   <h1>Journals, Conference Papers & Technical Reports</h1>
 
+  <div class="topbar">
+    <a class="btn" href="index.html">Back to Home</a>
+    <a class="btn" href="assets/bibtex/publications.bib" download>Download BibTeX (.bib)</a>
+  </div>
+
   <h2>Journal Publications</h2>
   <ul>
     <li>
-      <strong>Sentinel-2 / Landsat-8 product consistency and implications for monitoring aquatic systems</strong><br>
-      <em>Remote Sensing of Environment</em>, Vol. 220, 2019, pp. 19–29<br>
+      <strong>Sentinel-2/Landsat-8 product consistency and implications for monitoring aquatic systems</strong><br>
+      <em>Remote Sensing of Environment</em>, Volume 220, 2019, Pages 19–29, ISSN 0034-4257<br>
       Nima Pahlevan, Sandeep K. Chittimalli, Sundarabalan V. Balasubramanian, Vincenzo Vellucci<br>
-      <a class="btn" href="https://doi.org/10.1016/j.rse.2018.10.027" target="_blank">DOI</a>
-      <a class="btn" href="http://www.sciencedirect.com/science/article/pii/S0034425718304814" target="_blank">Publisher</a>
+      <a class="btn" href="https://doi.org/10.1016/j.rse.2018.10.027" target="_blank" rel="noopener">DOI</a>
+      <a class="btn" href="http://www.sciencedirect.com/science/article/pii/S0034425718304814" target="_blank" rel="noopener">Publisher</a>
+      <a class="btn" href="assets/bibtex/publications.bib" download>BibTeX</a>
     </li>
   </ul>
 
@@ -43,28 +51,28 @@
   <ul>
     <li>
       <strong>A reflectance-based cross calibration of the Landsat sensors</strong><br>
-      Proc. SPIE 10402, Earth Observing Systems XXII, 104021C (2017)<br>
-      Cibele Teixeira Pinto, Sandeep Chittimalli, Larry Leigh, Timothy Ruggles, Dennis L. Helder
+      Proc. SPIE 10402, <em>Earth Observing Systems XXII</em>, 104021C (5 September 2017).<br>
+      Cibele Teixeira Pinto, Sandeep Chittimalli, Larry Leigh, Timothy Ruggles, Dennis L. Helder<br>
+      <a class="btn" href="assets/bibtex/publications.bib" download>BibTeX</a>
     </li>
   </ul>
 
   <h2>Technical Papers & Theses</h2>
   <ul>
     <li>
-      <strong>SDG Indicator 6.6.1 — Change in the extent of water-related ecosystems over time</strong><br>
-      Methodology for satellite-based Earth observation datasets (2017)<br>
-      NASA, University of Maryland, UN Environment, GEO EO4SDGs
+      <strong>SDG Indicator 6.6.1 — Change in the extent of water related ecosystems over time</strong><br>
+      Methodology for satellite-based Earth observations datasets and tools for country level reporting, October 2017.<br>
+      NASA, University of Maryland, UN Environment, EO4SDGs, Group on Earth Observations<br>
+      <a class="btn" href="https://eo4sdg.org/wp-content/uploads/2017/08/DRAFT_SDG6.6.1_Methodology-for-EO-data-retrieval.pdf" target="_blank" rel="noopener">Methodology PDF</a>
+      <a class="btn" href="assets/bibtex/publications.bib" download>BibTeX</a>
     </li>
 
     <li>
-      <strong>Reflectance-based calibration and validation of the Landsat satellite archive</strong><br>
+      <strong>Reflectance-Based Calibration and Validation of the Landsat Satellite Archive</strong><br>
       Master’s Thesis — South Dakota State University<br>
-      <a class="btn" href="https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd" target="_blank">View Thesis</a>
+      <a class="btn" href="https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd" target="_blank" rel="noopener">View Thesis</a>
+      <a class="btn" href="assets/bibtex/publications.bib" download>BibTeX</a>
     </li>
   </ul>
-
-  <p>
-    <a class="btn" href="index.html">← Back to Home</a>
-  </p>
 </body>
 </html>
