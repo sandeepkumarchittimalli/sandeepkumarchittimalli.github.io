@@ -50,36 +50,14 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ## Program Committee (PC) & International Program Committee (IPC)
 
-**Selected national & international conferences (PC / IPC):**
-
-- 13th IEEE Conference on Systems, Process & Control (ICSPC 2025) — Malacca, Malaysia  
-- 22nd IEEE International Colloquium on Signal Processing & Its Applications — Langkawi, Malaysia  
-- IEEE International Conference on Interdisciplinary Approaches in Technology and Management for Social Innovation — Gwalior, India  
-- 7th International Symposium on Advanced Electrical and Communication Technologies (ISAECT 2026) — Mohali, India  
-- BDAA First International Conference on Big Data Analytics & Applications (BDAA’ 2025) — Innsbruck, Austria  
-- IFIP TC11 Information Security & Privacy Conference (SEC) — Perth, Australia  
-- 2nd International Conference on Recent Trends & Advances in Water Science, Remote Science & Climate Change — IIT Jammu, India  
-- 1st International Conference on Deep Learning Innovations for Smart Humanized AI — Jaipur & Delhi, India  
-- 4th International Joint Conference on Water Distribution Systems Analysis and Computing and Control in the Water Industry (WDSA/CCWI) — Cyprus  
-- SIWW2026 Water Convention — Singapore International Water Week (SIWW) 2026 — Singapore  
-- 17th IEEE Control & System Graduate Research Colloquium — USA  
-- IEEE International Conference on AI and Data Analytics (ICAD) — USA  
-- Computer Vision for Earth Observation Workshop Series — WACV — USA  
-- Icebumd: 1st International Conference AI, EDGE & BLOCKCHAIN SYSTEMS — USA  
-
----
-
-## Peer Reviewer (Journals)
-
-- Springer Nature — Discover GeoScience  
-- Springer Nature — Discover Sustainability  
-- IEEE  
-- BHTY  
-- FLAIRS Journals  
 
 ---
 
 ## Membership
+
+## Service & Membership
+➡️ [Program Committees, Peer Review & Memberships](service.html)
+
 
 - International Society for Photogrammetry and Remote Sensing (ISPRS) — Regular Member  
 - Institute for Systems and Technologies of Information, Control and Communication (INSTICC) — Regular Member  
