@@ -48,19 +48,7 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 - Cloud-Native ML Systems (AWS)
 ---
 
-## Program Committee (PC) & International Program Committee (IPC)
-
-
----
-
-## Membership
-
-## Service & Membership
+## Volunteer Service & Memberships
 ➡️ [Program Committees, Peer Review & Memberships](service.html)
 
-
-- International Society for Photogrammetry and Remote Sensing (ISPRS) — Regular Member  
-- Institute for Systems and Technologies of Information, Control and Communication (INSTICC) — Regular Member  
-- GCSAYN Research and Scientific Committee (GRSC) — Core Advisory Group Member  
-- NASA Lifelines Earth Science Review Board — NASA Lifelines  
 
