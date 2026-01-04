@@ -30,7 +30,7 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ## Experience (Organizations/Institutions)
 
-<img src="assets/experience_timeline.svg" alt="Experience timeline" style="max-width:100%; height:auto; border:1px solid #eee; border-radius:12px; padding:10px; background:#fff;" />
+<img src="assets/experience_wordcloud_dark.svg" alt="Experience timeline" style="max-width:100%; height:auto; border:1px solid #eee; border-radius:12px; padding:10px; background:#fff;" />
 
 ---
 
