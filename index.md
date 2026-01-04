@@ -34,6 +34,12 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 ## Highlights
 ➡️ [Certificates, Reviewing, Hackathons & AGU](highlights.html)
 
+## Invitations, Talks & Presentations
+➡️ [View invitations, talks, presentations & downloads](talks.html)
+
+## Acknowledgements & Projects Supported
+➡️ [View acknowledgements and supported projects](acknowledgements.html)
+
 ---
 
 ## Key Expertise
