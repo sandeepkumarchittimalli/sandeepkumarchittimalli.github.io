@@ -79,18 +79,6 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ---
 
-## Key Expertise
-- Artificial Intelligence & Machine Learning
-- Remote Sensing & Earth Observation
-- Satellite Image Processing and Analysis
-- Scientific Research & Federal Programs
-- Water Quality
-- Data Science
-- Infrastructure architecture for scientific research projects
-- NLP & Text Analytics
-- Cloud-Native ML Systems (AWS)
-
----
 
 ## Volunteer Service & Memberships
 ➡️ [Program Committees, Peer Review & Memberships](service.html)
