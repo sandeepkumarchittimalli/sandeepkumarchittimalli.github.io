@@ -1,98 +1,59 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="AI & Earth Science Word Cloud with Thematic Background">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="AI & Earth Science Word Cloud Dark Background">
   <defs>
-    <!-- Glow filter for circles -->
-    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
-      <feGaussianBlur stdDeviation="8" result="blur"/>
-      <feMerge>
-        <feMergeNode in="blur"/>
-        <feMergeNode in="SourceGraphic"/>
-      </feMerge>
-    </filter>
-
-    <!-- Background gradient -->
-    <linearGradient id="bgGradient" x1="0" y1="0" x2="0" y2="1">
-      <stop offset="0%" stop-color="#0b0f19"/>
-      <stop offset="100%" stop-color="#131a2b"/>
-    </linearGradient>
-
-    <!-- Grid pattern for satellite/data vibe -->
-    <pattern id="grid" width="50" height="50" patternUnits="userSpaceOnUse">
-      <path d="M50 0 L0 0 0 50" fill="none" stroke="#ffffff" stroke-opacity="0.05" stroke-width="1"/>
-    </pattern>
-
     <style>
       .t { font-family: Arial, sans-serif; font-weight: 700; fill: #ffffff; }
       .tDark { font-family: Arial, sans-serif; font-weight: 700; fill: #0f172a; }
     </style>
   </defs>
 
-  <!-- Background -->
-  <rect width="1200" height="520" fill="url(#bgGradient)"/>
-  <rect width="1200" height="520" fill="url(#grid)"/>
+  <!-- Dark background -->
+  <rect width="1200" height="520" fill="#0b0f19"/>
 
-  <!-- Semi-transparent Earth circle -->
-  <circle cx="600" cy="260" r="200" fill="#0f172a" opacity="0.2"/>
-
-  <!-- Floating circles with glow -->
-  <circle cx="345" cy="235" r="50" fill="#3b82f6" filter="url(#glow)"/>
+  <!-- Circles with text inside -->
+  <circle cx="345" cy="235" r="50" fill="#3b82f6"/>
   <text x="345" y="240" text-anchor="middle" class="t" font-size="16">NASA</text>
 
-  <circle cx="610" cy="185" r="50" fill="#10b981" filter="url(#glow)"/>
+  <circle cx="610" cy="185" r="50" fill="#10b981"/>
   <text x="610" y="190" text-anchor="middle" class="t" font-size="16">USGS</text>
 
-  <circle cx="800" cy="285" r="50" fill="#f59e0b" filter="url(#glow)"/>
-  <text x="800" y="276" text-anchor="middle" class="t" font-size="10">
-    <tspan x="800" dy="0">SD</tspan>
-    <tspan x="800" dy="12">Image</tspan>
-    <tspan x="800" dy="12">Processing Labs</tspan>
-  </text>
+  <circle cx="800" cy="285" r="50" fill="#f59e0b"/>
+  <text x="800" y="280" text-anchor="middle" class="t" font-size="8">SD Image</text>
+  <text x="800" y="290" text-anchor="middle" class="t" font-size="8">Processing Labs</text>
 
-  <circle cx="955" cy="205" r="50" fill="#a855f7" filter="url(#glow)"/>
-  <text x="955" y="218" text-anchor="middle" class="t" font-size="18">NSF</text>
+  <circle cx="955" cy="205" r="50" fill="#a855f7"/>
+  <text x="955" y="210" text-anchor="middle" class="t" font-size="18">NSF</text>
 
-  <circle cx="500" cy="340" r="45" fill="#ef4444" filter="url(#glow)"/>
+  <circle cx="500" cy="340" r="45" fill="#ef4444"/>
   <text x="500" y="345" text-anchor="middle" class="t" font-size="16">SMDI</text>
 
-  <circle cx="90" cy="325" r="42" fill="#ef4444" filter="url(#glow)"/>
-  <text x="90" y="328" text-anchor="middle" class="t" font-size="12">
-    <tspan x="90" dy="0">AI</tspan>
-    <tspan x="90" dy="12">Collective</tspan>
-  </text>
+  <circle cx="90" cy="325" r="42" fill="#ef4444"/>
+  <text x="90" y="330" text-anchor="middle" class="t" font-size="10">AI Collective</text>
 
-  <circle cx="120" cy="110" r="38" fill="#ef4444" filter="url(#glow)"/>
-  <text x="120" y="113" text-anchor="middle" class="t" font-size="12">GCSAYN</text>
+  <circle cx="120" cy="110" r="38" fill="#ef4444"/>
+  <text x="120" y="115" text-anchor="middle" class="t" font-size="10">GCSAYN</text>
 
-  <circle cx="680" cy="370" r="54" fill="#14b8a6" filter="url(#glow)"/>
+  <circle cx="680" cy="370" r="54" fill="#14b8a6"/>
   <text x="680" y="375" text-anchor="middle" class="t" font-size="16">USRA</text>
 
-  <circle cx="920" cy="360" r="48" fill="#f97316" filter="url(#glow)"/>
+  <circle cx="920" cy="360" r="48" fill="#f97316"/>
   <text x="920" y="365" text-anchor="middle" class="t" font-size="14">AGU</text>
 
-  <circle cx="1020" cy="300" r="44" fill="#38bdf8" filter="url(#glow)"/>
+  <circle cx="1020" cy="300" r="44" fill="#38bdf8"/>
   <text x="1020" y="305" text-anchor="middle" class="t" font-size="12">ESIP</text>
 
-  <circle cx="230" cy="355" r="44" fill="#22c55e" filter="url(#glow)"/>
-  <text x="230" y="358" text-anchor="middle" class="t" font-size="12">
-    <tspan x="230" dy="0">Capital</tspan>
-    <tspan x="230" dy="12">One</tspan>
-  </text>
+  <circle cx="230" cy="355" r="44" fill="#22c55e"/>
+  <text x="230" y="360" text-anchor="middle" class="t" font-size="10">Capital One</text>
 
-  <circle cx="180" cy="290" r="42" fill="#dc2626" filter="url(#glow)"/>
-  <text x="180" y="293" text-anchor="middle" class="t" font-size="14">DEXIAN</text>
+  <circle cx="180" cy="290" r="42" fill="#dc2626"/>
+  <text x="180" y="295" text-anchor="middle" class="t" font-size="14">DEXIAN</text>
 
-  <circle cx="200" cy="180" r="42" fill="#2dd4bf" filter="url(#glow)"/>
-  <text x="200" y="180" text-anchor="middle" class="t" font-size="14" transform="rotate(-15 200 180)">YMTS</text>
+  <circle cx="200" cy="180" r="42" fill="#2dd4bf"/>
+  <text x="200" y="180" text-anchor="middle" class="t" font-size="14">YMTS</text>
 
-  <circle cx="470" cy="120" r="40" fill="#fde047" filter="url(#glow)"/>
-  <text x="470" y="125" text-anchor="middle" class="tDark" font-size="12">
-    <tspan x="470" dy="0">JBIET,</tspan>
-    <tspan x="470" dy="12">AP</tspan>
-  </text>
+  <circle cx="470" cy="120" r="40" fill="#fde047"/>
+  <text x="470" y="125" text-anchor="middle" class="tDark" font-size="12">JBIET, AP</text>
 
-  <circle cx="350" cy="420" r="44" fill="#8b5cf6" filter="url(#glow)"/>
-  <text x="350" y="420" text-anchor="middle" class="t" font-size="10" transform="rotate(5 350 420)">
-    <tspan x="350" dy="0">Apollo</tspan>
-    <tspan x="350" dy="12">Computing</tspan>
-    <tspan x="350" dy="12">Labs</tspan>
-  </text>
+  <circle cx="350" cy="420" r="44" fill="#8b5cf6"/>
+  <text x="350" y="425" text-anchor="middle" class="t" font-size="8">Apollo</text>
+  <text x="350" y="435" text-anchor="middle" class="t" font-size="8">Computing Labs</text>
 </svg>
