@@ -36,8 +36,6 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 
 ---
 
-## Academic Credentials
-
 <img src="assets/education_timeline.svg" alt="Education timeline" style="max-width:100%; height:auto; border:1px solid #eee; border-radius:12px; padding:10px; background:#fff;" />
 
 ### Master’s Thesis
