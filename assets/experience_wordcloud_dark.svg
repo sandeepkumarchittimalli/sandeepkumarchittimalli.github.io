@@ -56,7 +56,7 @@
     <text x="230" y="368" text-anchor="middle" class="t" font-size="18">C1</text>
 
     <circle cx="140" cy="290" r="40" fill="#dc2626"></circle>
-    <text x="140" y="302" text-anchor="middle" class="t" font-size="16">DEX</text>
+    <text x="140" y="302" text-anchor="middle" class="t" font-size="16">DEXIAN</text>
 
     <circle cx="175" cy="185" r="42" fill="#2dd4bf"></circle>
     <g transform="translate(175,185) rotate(-18)">
