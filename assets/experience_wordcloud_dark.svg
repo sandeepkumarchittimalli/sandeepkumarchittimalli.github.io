@@ -1,74 +1,105 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="Experience organizations word cloud (dark mode)">
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="520" viewBox="0 0 1200 520" role="img" aria-label="AI & Earth Science Word Cloud with Thematic Background">
   <defs>
-    <filter id="shadow" x="-30%" y="-30%" width="160%" height="160%">
-      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.6"></feDropShadow>
+    <!-- Shadow for floating circles -->
+    <filter id="shadow" x="-50%" y="-50%" width="200%" height="200%">
+      <feDropShadow dx="0" dy="4" stdDeviation="6" flood-color="#000" flood-opacity="0.5"/>
     </filter>
 
+    <!-- Glow behind circles -->
+    <filter id="glow" x="-50%" y="-50%" width="200%" height="200%">
+      <feGaussianBlur stdDeviation="8" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+
+    <!-- Background gradient (space to earth vibe) -->
+    <radialGradient id="bgGradient" cx="50%" cy="50%" r="60%">
+      <stop offset="0%" stop-color="#0b0f19"/>
+      <stop offset="70%" stop-color="#131a2b"/>
+      <stop offset="100%" stop-color="#050a14"/>
+    </radialGradient>
+
+    <!-- Style for text -->
     <style>
-      .t { font-family: Arial, sans-serif; font-weight: 800; fill: #ffffff; }
-      .tDark { font-family: Arial, sans-serif; font-weight: 800; fill: #0f172a; }
+      .t { font-family: Arial, sans-serif; font-weight: 700; fill: #ffffff; }
+      .tDark { font-family: Arial, sans-serif; font-weight: 700; fill: #0f172a; }
     </style>
   </defs>
 
-  <!-- Dark background -->
-  <rect x="0" y="0" width="1200" height="520" fill="#0b0f19"></rect>
+  <!-- Background -->
+  <rect width="1200" height="520" fill="url(#bgGradient)"/>
 
-  <!-- Big anchors -->
+  <!-- Semi-transparent Earth silhouette -->
+  <circle cx="600" cy="260" r="200" fill="#0f172a" opacity="0.2"/>
+
+  <!-- Floating circles with glow -->
   <g filter="url(#shadow)">
-    <circle cx="345" cy="235" r="92" fill="#3b82f6"></circle>
-    <text x="345" y="248" text-anchor="middle" class="t" font-size="26">NASA</text>
+    <circle cx="345" cy="235" r="50" fill="#3b82f6" filter="url(#glow)"/>
+    <text x="345" y="240" text-anchor="middle" class="t" font-size="16">NASA</text>
 
-    <circle cx="610" cy="185" r="78" fill="#10b981"></circle>
-    <text x="610" y="198" text-anchor="middle" class="t" font-size="10">USGS</text>
+    <circle cx="610" cy="185" r="50" fill="#10b981" filter="url(#glow)"/>
+    <text x="610" y="190" text-anchor="middle" class="t" font-size="16">USGS</text>
 
-    <circle cx="800" cy="285" r="72" fill="#f59e0b"></circle>
-    <text x="800" y="298" text-anchor="middle" class="t" font-size="20">SDSU</text>
+    <circle cx="800" cy="285" r="50" fill="#f59e0b" filter="url(#glow)"/>
+    <text x="800" y="276" text-anchor="middle" class="t" font-size="10">
+      <tspan x="800" dy="0">SD</tspan>
+      <tspan x="800" dy="12">Image</tspan>
+      <tspan x="800" dy="12">Processing Labs</tspan>
+    </text>
 
-    <circle cx="955" cy="205" r="66" fill="#a855f7"></circle>
-    <text x="955" y="218" text-anchor="middle" class="t" font-size="26">NSF</text>
-  </g>
+    <circle cx="955" cy="205" r="50" fill="#a855f7" filter="url(#glow)"/>
+    <text x="955" y="218" text-anchor="middle" class="t" font-size="18">NSF</text>
 
-  <!-- Medium cluster -->
-  <g filter="url(#shadow)">
-    <circle cx="520" cy="325" r="58" fill="#ef4444"></circle>
-    <text x="520" y="338" text-anchor="middle" class="t" font-size="22">SMDI</text>
-    
-    <circle cx="100" cy="305" r="50" fill="#ef4444"></circle>
-    <text x="520" y="338" text-anchor="middle" class="t" font-size="22">AI Collective</text>
-    
-    <circle cx="110" cy="100" r="60" fill="#ef4444"></circle>
-    <text x="520" y="338" text-anchor="middle" class="t" font-size="22">GCSAYN</text>
+    <circle cx="500" cy="340" r="45" fill="#ef4444" filter="url(#glow)"/>
+    <text x="500" y="345" text-anchor="middle" class="t" font-size="16">SMDI</text>
 
+    <circle cx="90" cy="325" r="42" fill="#ef4444" filter="url(#glow)"/>
+    <text x="90" y="328" text-anchor="middle" class="t" font-size="12">
+      <tspan x="90" dy="0">AI</tspan>
+      <tspan x="90" dy="12">Collective</tspan>
+    </text>
 
-    <circle cx="680" cy="375" r="54" fill="#14b8a6"></circle>
-    <text x="680" y="388" text-anchor="middle" class="t" font-size="22">USRA</text>
+    <circle cx="120" cy="110" r="38" fill="#ef4444" filter="url(#glow)"/>
+    <text x="120" y="113" text-anchor="middle" class="t" font-size="12">GCSAYN</text>
 
-    <circle cx="905" cy="345" r="50" fill="#f97316"></circle>
-    <text x="905" y="358" text-anchor="middle" class="t" font-size="20">AGU</text>
+    <circle cx="680" cy="370" r="54" fill="#14b8a6" filter="url(#glow)"/>
+    <text x="680" y="375" text-anchor="middle" class="t" font-size="16">USRA</text>
 
-    <circle cx="1025" cy="300" r="46" fill="#38bdf8"></circle>
-    <text x="1025" y="313" text-anchor="middle" class="t" font-size="18">ESIP</text>
-  </g>
+    <circle cx="920" cy="360" r="48" fill="#f97316" filter="url(#glow)"/>
+    <text x="920" y="365" text-anchor="middle" class="t" font-size="14">AGU</text>
 
-  <!-- Small cluster -->
-  <g filter="url(#shadow)">
-    <circle cx="230" cy="355" r="44" fill="#22c55e"></circle>
-    <text x="230" y="368" text-anchor="middle" class="t" font-size="18">C1</text>
+    <circle cx="1020" cy="300" r="44" fill="#38bdf8" filter="url(#glow)"/>
+    <text x="1020" y="305" text-anchor="middle" class="t" font-size="12">ESIP</text>
 
-    <circle cx="140" cy="290" r="40" fill="#dc2626"></circle>
-    <text x="140" y="302" text-anchor="middle" class="t" font-size="16">DEXIAN</text>
+    <circle cx="230" cy="355" r="44" fill="#22c55e" filter="url(#glow)"/>
+    <text x="230" y="358" text-anchor="middle" class="t" font-size="12">
+      <tspan x="230" dy="0">Capital</tspan>
+      <tspan x="230" dy="12">One</tspan>
+    </text>
 
-    <circle cx="175" cy="185" r="42" fill="#2dd4bf"></circle>
-    <g transform="translate(175,185) rotate(-18)">
-      <text x="0" y="8" text-anchor="middle" class="t" font-size="15">YMTS</text>
+    <circle cx="180" cy="290" r="42" fill="#dc2626" filter="url(#glow)"/>
+    <text x="180" y="293" text-anchor="middle" class="t" font-size="14">DEXIAN</text>
+
+    <circle cx="200" cy="180" r="42" fill="#2dd4bf" filter="url(#glow)"/>
+    <g transform="translate(200,180) rotate(-15)">
+      <text x="0" y="8" text-anchor="middle" class="t" font-size="14">YMTS</text>
     </g>
 
-    <circle cx="470" cy="120" r="40" fill="#fde047"></circle>
-    <text x="470" y="133" text-anchor="middle" class="tDark" font-size="14">JBIET, AP</text>
+    <circle cx="470" cy="120" r="40" fill="#fde047" filter="url(#glow)"/>
+    <text x="470" y="125" text-anchor="middle" class="tDark" font-size="12">
+      <tspan x="470" dy="0">JBIET,</tspan>
+      <tspan x="470" dy="12">AP</tspan>
+    </text>
 
-    <circle cx="1035" cy="405" r="36" fill="#64748b"></circle>
-    <g transform="translate(1035,405) rotate(-12)">
-      <text x="0" y="7" text-anchor="middle" class="t" font-size="12">SDSU-IP</text>
+    <circle cx="350" cy="420" r="44" fill="#8b5cf6" filter="url(#glow)"/>
+    <g transform="translate(350,420) rotate(5)">
+      <text x="0" y="0" text-anchor="middle" class="t" font-size="10">
+        <tspan x="0" dy="0">Apollo</tspan>
+        <tspan x="0" dy="12">Computing</tspan>
+        <tspan x="0" dy="12">Labs</tspan>
+      </text>
     </g>
   </g>
 </svg>
