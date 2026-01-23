@@ -16,22 +16,29 @@
   <!-- Big anchors -->
   <g filter="url(#shadow)">
     <circle cx="345" cy="235" r="92" fill="#3b82f6"></circle>
-    <text x="345" y="248" text-anchor="middle" class="t" font-size="36">NASA</text>
+    <text x="345" y="248" text-anchor="middle" class="t" font-size="26">NASA</text>
 
     <circle cx="610" cy="185" r="78" fill="#10b981"></circle>
-    <text x="610" y="198" text-anchor="middle" class="t" font-size="30">USGS</text>
+    <text x="610" y="198" text-anchor="middle" class="t" font-size="10">USGS</text>
 
     <circle cx="800" cy="285" r="72" fill="#f59e0b"></circle>
-    <text x="800" y="298" text-anchor="middle" class="t" font-size="30">SDSU</text>
+    <text x="800" y="298" text-anchor="middle" class="t" font-size="20">SDSU</text>
 
     <circle cx="955" cy="205" r="66" fill="#a855f7"></circle>
-    <text x="955" y="218" text-anchor="middle" class="t" font-size="28">NSF</text>
+    <text x="955" y="218" text-anchor="middle" class="t" font-size="26">NSF</text>
   </g>
 
   <!-- Medium cluster -->
   <g filter="url(#shadow)">
     <circle cx="520" cy="325" r="58" fill="#ef4444"></circle>
     <text x="520" y="338" text-anchor="middle" class="t" font-size="22">SMDI</text>
+    
+    <circle cx="100" cy="305" r="50" fill="#ef4444"></circle>
+    <text x="520" y="338" text-anchor="middle" class="t" font-size="22">AI Collective</text>
+    
+    <circle cx="110" cy="100" r="60" fill="#ef4444"></circle>
+    <text x="520" y="338" text-anchor="middle" class="t" font-size="22">GCSAYN</text>
+
 
     <circle cx="680" cy="375" r="54" fill="#14b8a6"></circle>
     <text x="680" y="388" text-anchor="middle" class="t" font-size="22">USRA</text>
@@ -57,7 +64,7 @@
     </g>
 
     <circle cx="470" cy="120" r="40" fill="#fde047"></circle>
-    <text x="470" y="133" text-anchor="middle" class="tDark" font-size="14">JBIET</text>
+    <text x="470" y="133" text-anchor="middle" class="tDark" font-size="14">JBIET, AP</text>
 
     <circle cx="1035" cy="405" r="36" fill="#64748b"></circle>
     <g transform="translate(1035,405) rotate(-12)">
