@@ -23,7 +23,7 @@
       .t { font-family: Arial, sans-serif; font-weight: 700; fill: #ffffff; }
       .tDark { font-family: Arial, sans-serif; font-weight: 700; fill: #0f172a; }
     </style>
-  </defs>
+
 
   <!-- Background -->
   <rect width="1200" height="520" fill="url(#bgGradient)"/>
