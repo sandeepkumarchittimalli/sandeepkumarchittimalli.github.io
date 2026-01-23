@@ -13,7 +13,7 @@ title: Sandeep Chittimalli
 🔗 [Google Scholar](https://scholar.google.com/citations?user=OO7rpLMAAAAJ&hl=en&oi=ao)  
 
 ![Citations](https://img.shields.io/badge/Total%20Citations-308-blue)
-
+🔗[Linkedin](https://www.linkedin.com/in/sandeepkumarchittimalli/)
 
 ---
 
