@@ -2,7 +2,7 @@
   <rect x="0" y="0" width="1100" height="380" fill="white"></rect>
 
   <text x="40" y="50" font-family="Arial, sans-serif" font-size="26" font-weight="700" fill="#111">
-    Academic Credentials (Timeline)
+    Academic Credentials
   </text>
 
   <line x1="120" y1="95" x2="120" y2="340" stroke="#d0d0d0" stroke-width="6"></line>
