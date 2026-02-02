@@ -33,7 +33,6 @@
       background: #fff;
       font-size: 14px;
     }
-    .chip:hover { text-decoration: underline; }
 
     .section { margin: 40px 0; }
 
@@ -44,7 +43,6 @@
       gap: 12px;
     }
 
-    .section-header h2 { margin: 0; }
     .hint { font-size: 13px; color: #666; }
 
     .carousel-container {
@@ -108,11 +106,6 @@
       margin-bottom: 2px;
     }
 
-    .caption a {
-      text-decoration: none;
-    }
-    .caption a:hover { text-decoration: underline; }
-
     .nav-button {
       position: absolute;
       top: 50%;
@@ -126,7 +119,6 @@
       font-size: 18px;
       display: grid;
       place-items: center;
-      user-select: none;
       z-index: 2;
     }
 
@@ -152,7 +144,7 @@
   <a class="chip" href="#journal-reviewer">Journal Reviewer</a>
   <a class="chip" href="#conference-reviewer">Conference Reviewer</a>
   <a class="chip" href="#hackathons">Hackathons / Judging</a>
-  <a class="chip" href="#agu">TALKS</a>
+  <a class="chip" href="#talks">Talks</a>
 </div>
 
 <!-- ===================== JOURNAL REVIEWER ===================== -->
@@ -215,7 +207,7 @@
         </div>
       </div>
 
-       <div class="item">
+      <div class="item">
         <div class="pdf-wrap">
           <iframe src="assets/conference-reviewer/sandeep_kumar_chittimalli_IATMSI.pdf"></iframe>
         </div>
@@ -242,7 +234,7 @@
   </div>
 </div>
 
-<!-- ===================== HACKATHONS / JUDGING ===================== -->
+<!-- ===================== HACKATHONS ===================== -->
 <div class="section" id="hackathons">
   <div class="section-header">
     <h2>Hackathons / Judging</h2>
@@ -254,11 +246,10 @@
     <div class="carousel" id="hack">
 
       <div class="item">
-        <img src="assets/certificates/sih-certificate-for-EVALUATOR.png" alt="SIH Evaluator">
+        <img src="assets/certificates/sih-certificate-for-EVALUATOR.png">
         <div class="caption">
           <strong>Smart India Hackathon</strong>
-          Evaluator Certificate •
-          <a href="assets/certificates/sih-certificate-for-EVALUATOR.png" target="_blank">Open</a>
+          Evaluator Certificate
         </div>
       </div>
 
@@ -266,120 +257,48 @@
         <div class="pdf-wrap">
           <iframe src="assets/certificates/Vibe_Demo_Day_Sep.pdf"></iframe>
         </div>
-        <div class="caption">
-          <strong>Vibe Demo Day</strong>
-          September •
-          <a href="assets/certificates/Vibe_Demo_Day_Sep.pdf" target="_blank">Open PDF</a>
-        </div>
+        <div class="caption"><strong>Vibe Demo Day</strong> September</div>
       </div>
-
-      <div class="item">
-        <div class="pdf-wrap">
-          <iframe src="assets/certificates/Vibe_Demo_Day_Nov.pdf"></iframe>
-        </div>
-        <div class="caption">
-          <strong>Vibe Demo Day</strong>
-          November •
-          <a href="assets/certificates/Vibe_Demo_Day_Nov.pdf" target="_blank">Open PDF</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="pdf-wrap">
-          <iframe src="assets/certificates/Harrisburg_University_Virtual_Vibe_Coding_Hackathon.pdf"></iframe>
-        </div>
-        <div class="caption">
-          <strong>Harrisburg University</strong>
-          Virtual Vibe Coding Hackathon •
-          <a href="assets/certificates/Harrisburg_University_Virtual_Vibe_Coding_Hackathon.pdf" target="_blank">Open PDF</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="pdf-wrap">
-          <iframe src="assets/certificates/F1_Hackathon_Acknowledgement.pdf"></iframe>
-        </div>
-        <div class="caption">
-          <strong>F1 Hackathon</strong>
-          Acknowledgement •
-          <a href="assets/certificates/F1_Hackathon_Acknowledgement.pdf" target="_blank">Open PDF</a>
-        </div>
-      </div>
-
-      <div class="item">
-        <div class="pdf-wrap">
-          <iframe src="assets/certificates/BigAwardsbusiness_intelligence.pdf"></iframe>
-        </div>
-        <div class="caption">
-          <strong>Business Intelligence Big Awards</strong>
-          Acknowledgement •
-          <a href="assets/certificates/BigAwardsbusiness_intelligence.pdf" target="_blank">Open PDF</a>
-        </div>
-      </div>
-
-      
 
     </div>
     <button class="nav-button nav-right" onclick="scrollCarousel('hack', 380)">▶</button>
   </div>
 </div>
 
-<!-- ===================== AGU ===================== -->
-<div class="section" id="agu">
+<!-- ===================== TALKS ===================== -->
+<div class="section" id="talks">
   <div class="section-header">
     <h2>Talks</h2>
     <p class="hint">Talks & Certifications</p>
   </div>
 
   <div class="carousel-container">
-    <button class="nav-button nav-left" onclick="scrollCarousel('agu', -380)">◀</button>
-    <div class="carousel" id="agu">
+    <button class="nav-button nav-left" onclick="scrollCarousel('talks-carousel', -380)">◀</button>
+    <div class="carousel" id="talks-carousel">
 
       <div class="item">
         <div class="pdf-wrap">
           <iframe src="assets/certificates/AGU_2025_attendance_confirmation.pdf"></iframe>
         </div>
-        <div class="caption">
-          <strong>AGU 2025</strong>
-          Attendance Confirmation •
-          <a href="assets/certificates/AGU_2025_attendance_confirmation.pdf" target="_blank">Open PDF</a>
-        </div>
+        <div class="caption"><strong>AGU 2025</strong> Attendance Confirmation</div>
       </div>
 
       <div class="item">
         <div class="pdf-wrap">
           <iframe src="assets/certificates/AGU25_Certificate_talk.pdf"></iframe>
         </div>
-        <div class="caption">
-          <strong>AGU 2025</strong>
-          Certificate of Presentation (Talk) •
-          <a href="assets/certificates/AGU25_Certificate_talk.pdf" target="_blank">Open PDF</a>
-        </div>
+        <div class="caption"><strong>AGU 2025</strong> Certificate of Presentation</div>
       </div>
 
       <div class="item">
-        <div class="pdf-wrap">
-          <iframe src="assets/certificates/AGU_ESIP_HELP_DESK.pdf"></iframe>
-        </div>
-        <div class="caption">
-          <strong>ESIP_HELP_DESK</strong>
-          Volunteer •
-          <a href="assets/certificates/AGU_ESIP_HELP_DESK.pdf" target="_blank">Open PDF</a>
-        </div>
-
-
- </div>
-  <div class="carousel-container">
-    <button class="nav-button nav-left" onclick="scrollCarousel('hack', -380)">◀</button>
-    <div class="carousel" id="hack">
-
-      <div class="item">
-        <img src="assets/GCSAYN_Cohort_4_Graduation_Poster_20251220.jpg" alt="SIH Evaluator">
-        <div class="caption">
-          <strong>GCSAYN COHORT GRADUATION- Talk</strong>
-          <a href="assets/certificates/GCSAYN_Cohort_4_Graduation_Poster_20251220.jpg" target="_blank">Open</a>
-        </div>
+        <img src="assets/GCSAYN_Cohort_4_Graduation_Poster_20251220.jpg">
+        <div class="caption"><strong>GCSAYN Cohort 4</strong> Invited Talk</div>
       </div>
+
+    </div>
+    <button class="nav-button nav-right" onclick="scrollCarousel('talks-carousel', 380)">▶</button>
+  </div>
+</div>
 
 <div class="footer">
   Tip: If a PDF doesn’t render on mobile, use the <b>Open PDF</b> link.
@@ -388,8 +307,7 @@
 <script>
   function scrollCarousel(id, amount) {
     const el = document.getElementById(id);
-    if (!el) return;
-    el.scrollBy({ left: amount, behavior: 'smooth' });
+    if (el) el.scrollBy({ left: amount, behavior: 'smooth' });
   }
 </script>
 
