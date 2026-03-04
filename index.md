@@ -41,8 +41,8 @@ A recognized expert in the field, he has served as a judge and reviewer for mult
 ### Master’s Thesis
 
 - **Reflectance-Based Calibration and Validation of the Landsat Satellite Archive**  
-  📄 [View Thesis (OpenPrairie)](https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd)  **Advisor:** [Dr. Dennis L. Helder](https://www.sdstate.edu/directory/dennis-helder), **Thesis Advisor:** [Larry Leigh]([https://www.sdstate.edu/directory/dennis-helder](https://www.sdstate.edu/directory/larry-leigh))
----
+  📄 [View Thesis (OpenPrairie)](https://openprairie.sdstate.edu/cgi/viewcontent.cgi?article=2104&context=etd)  **Advisor:** [Dr. Dennis L. Helder](https://www.sdstate.edu/directory/dennis-helder), **Thesis Advisor:** [Larry Leigh](https://www.sdstate.edu/directory/larry-leigh)
+--
 
 ### Academic Projects
 
