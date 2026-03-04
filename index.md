@@ -6,7 +6,7 @@ title: Sandeep Chittimalli
 <img src="assets/Headshot_photo.png" alt="Sandeep Chittimalli" width="180"/>
 
 # Sandeep Chittimalli
-**Senior Data Scientist | AI/ML Expert | Earth Science | Remote Sensing | Satellite Image Processing**
+**Senior Data Scientist | AI/ML Expert | Earth Science | Remote Sensing | Satellite Image Processing | Senior Member IEEE | Board Member | Advisor**
 
 📍 United States  
 📧 Sandeepkumarchittimalli@gmail.com  
