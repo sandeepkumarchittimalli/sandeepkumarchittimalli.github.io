@@ -12,7 +12,7 @@ title: Sandeep Chittimalli
 📧 Sandeepkumarchittimalli@gmail.com  
 🔗 [Google Scholar](https://scholar.google.com/citations?user=OO7rpLMAAAAJ&hl=en&oi=ao)  
 
-![Citations](https://img.shields.io/badge/Total%20Citations-316-blue)
+![Citations](https://img.shields.io/badge/Total%20Citations-319-blue)
 
 🔗[Linkedin](https://www.linkedin.com/in/sandeepkumarchittimalli/)
 
