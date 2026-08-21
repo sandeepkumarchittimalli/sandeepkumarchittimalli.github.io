@@ -6,13 +6,13 @@ title: Sandeep Chittimalli
 <img src="assets/Headshot_photo.png" alt="Sandeep Chittimalli" width="180"/>
 
 # Sandeep Chittimalli
-**Senior Data Scientist | AI/ML Expert | Earth Science | Remote Sensing | Satellite Image Processing | Senior Member IEEE | Board Member | IET Advisor | AI Collective Chapter Lead**
+**Senior Data Scientist | AI/ML Expert | Earth Science | Remote Sensing | Satellite Image Processing | Senior Member IEEE | IEEE GRSS Chair (East North Carolina Section) | Board Member | IET Advisor | AI Collective Chapter Lead**
 
 📍 United States  
 📧 Sandeepkumarchittimalli@gmail.com  
 🔗 [Google Scholar](https://scholar.google.com/citations?user=OO7rpLMAAAAJ&hl=en&oi=ao)  
 
-![Citations](https://img.shields.io/badge/Total%20Citations-332-blue)
+![Citations](https://img.shields.io/badge/Total%20Citations-346-blue)
 
 🔗[Linkedin](https://www.linkedin.com/in/sandeepkumarchittimalli/)
 
