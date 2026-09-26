@@ -65,20 +65,20 @@ Through his technical leadership, research, professional service, mentorship, an
 
 ---
 
-## Highlights
-➡️ [Certificates, Reviewing, Hackathons & AGU](highlights.html)
+## Highlights (Not up-to-date)
+➡️ [Certificates, Reviewing, Hackathons (Not up-to-date)](highlights.html)
 
 ## Invitations, Talks & Presentations
-➡️ [View invitations, talks, presentations & downloads](talks.html)
+➡️ [View invitations, talks, presentations & downloads (Not up-to-date)](talks.html)
 
-## Acknowledgements & Projects Supported
-➡️ [View acknowledgements and supported projects](acknowledgements.html)
+## Acknowledgements & Projects Supported (Not up-to-date)
+➡️ [View acknowledgements and supported projects (Not up-to-date)](acknowledgements.html)
 
-## Publications
-➡️ [Journals, Conference Papers & Technical Reports](publications.html)
+## Publications (Not up-to-date)
+➡️ [Journals, Conference Papers & Technical Reports (Not up-to-date)](publications.html)
 
 ---
 
 
-## Volunteer Service & Memberships
+## Volunteer Service & Memberships (Not up-to-date)
 ➡️ [Program Committees, Peer Review & Memberships](service.html)
